@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2013.5.19)  5 JUN 2013 22:24
+entering extended mode
+**E:/Dropbox/Professional*Development/CV*Tex/resume.cls
+("E:/Dropbox/Professional Development/CV Tex/resume.cls"
+! Undefined control sequence.
+l.21 \ProvidesClass
+                   {resume}[2010/07/10 v0.9 Resume class]
+? 
+! Emergency stop.
+l.21 \ProvidesClass
+                   {resume}[2010/07/10 v0.9 Resume class]
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
