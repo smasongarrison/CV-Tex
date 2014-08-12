@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  8 AUG 2014 15:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  11 AUG 2014 15:19
 entering extended mode
 **SMasonGarrisonCV.tex
 ("D:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -342,11 +342,11 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [3]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 293.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 294.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 303.
+(Font)              <12> on input line 304.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
@@ -384,7 +384,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (5 pages, 130521 bytes).
+Output written on SMasonGarrisonCV.pdf (5 pages, 130522 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
