@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  11 AUG 2014 15:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  17 AUG 2014 14:19
 entering extended mode
 **SMasonGarrisonCV.tex
 ("D:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -342,29 +342,29 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [3]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 294.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 297.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 304.
+(Font)              <12> on input line 307.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  ("D:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
  6011 strings out of 493921
@@ -384,7 +384,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (5 pages, 130522 bytes).
+Output written on SMasonGarrisonCV.pdf (5 pages, 130549 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
