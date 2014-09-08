@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  5 SEP 2014 13:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.5)  7 SEP 2014 20:16
 entering extended mode
 **SMasonGarrisonCV.tex
 ("D:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -356,13 +356,14 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 298.
 
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 307.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 307.
+
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
@@ -384,7 +385,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
 Here is how much of TeX's memory you used:
  6012 strings out of 493921
  89467 string characters out of 3144876
- 186488 words of memory out of 3000000
+ 185488 words of memory out of 3000000
  9259 multiletter control sequences out of 15000+200000
  12299 words of font info for 42 fonts, out of 3000000 for 9000
  848 hyphenation exceptions out of 8191
@@ -399,7 +400,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (6 pages, 130615 bytes).
+Output written on SMasonGarrisonCV.pdf (6 pages, 130616 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
