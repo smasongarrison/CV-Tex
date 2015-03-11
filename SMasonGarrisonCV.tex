@@ -16,6 +16,11 @@
 \newcommand{\et}{\textit{et al}.\xspace}
 \newcommand{\eg}{\textit{e.g},\xspace}
 \newcommand{\student}{\hspace{-3.95pt}\textsuperscript{*}\hspace* {2 pt}}
+\newlength{\wideitemsep}
+\setlength{\wideitemsep}{\itemsep}
+\addtolength{\wideitemsep}{-3pt}
+\let\olditem\item
+\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
 \renewcommand*{\familydefault}{\sfdefault}
 \name{\textrm{\LARGE{S}\small{(arah)} %\textsuperscript{``}
 \LARGE{M}ason %\textsuperscript{''}
@@ -222,24 +227,25 @@ The romantic personality and relationship readiness. \textit{LoveLogica}.
 %	Current Projects
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Current Work}}
-{\large {\bf Working Papers}}\\
-\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (in prep). As time goes by: Personality predicts the \hspace* {6 mm}timing of divorce over 45 years. Target: \textit{JPSP}\smallskip\\
-\meb, Hadd, A. R., \& Rodgers, J. L. (in prep). Adolescent conscientiousness and intelligence impact \hspace* {6 mm}health at midlife: A genetically informed extension of the sibling comparison approach. Target: \textit{MBR}%\smallskip\\%\meb (commissioned). Are you too picky?: Extreme mate selectivity. \textit{LoveLogica}
-\medskip\\{\large {\bf Ongoing Analysis}}\\
-%Altruism and longevity (with Connolly \et)\smallskip\\
+{\large {\bf Working Papers}}
+\begin{etaremune}\item\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (in prep). As time goes by: Personality predicts the timing of divorce over 45 years. Target: \textit{JPSP}
+\item\meb, Hadd, A. R., \& Rodgers, J. L. (in prep). Adolescent conscientiousness and intelligence impact health at midlife: A genetically informed extension of the sibling comparison approach. Target: \textit{MBR}%\smallskip\\%\meb (commissioned). Are you too picky?: Extreme mate selectivity. \textit{LoveLogica}
+\end{etaremune}
+{\large {\bf Ongoing Analysis}}\begin{etaremune}
+%\item Altruism and longevity (with Connolly \et)\smallskip\\
 %Downstream consequences of divorce (with Connolly \et)\smallskip\\
-%Downstream influences on reading: A genetically informed design. (with Romick)\smallskip\\
-%Facial structure, attractiveness, and divorce (with Connolly \et)\smallskip\\
-Flynn Effect and age at first intercourse (with Rodgers)\smallskip\\
-Genetically informed extension of the sibling comparison approach (with Rodgers \et)\smallskip\\
-%Generalizability of the Terman longitudinal study of the gifted\smallskip\\
-%History of Lowell Kelly and his marriage study (with Connolly \et)\smallskip\\
-%Life history narratives from the KCLS (with Connolly \et\smallskip\\
-Personality's influence on partner health and longevity across multiple cohorts (with Jackson \et)
-%Validity of the Kelly Personality Rating Scale (with Jackson \et)
-\medskip\\{\large {\bf Software}}\\
-\meb. (\textit{nd}). Mason: Quantitative Personality Functions \R package version $\alpha$ %\href{http://liveoak.github.io/NlsyLinks}{\color{blue}{http://liveoak.github.io/NlsyLinks}}
-\end{rSection}
+%\item Downstream influences on reading: A genetically informed design. (with Romick)\smallskip\\
+%\item Facial structure, attractiveness, and divorce (with Connolly \et)\smallskip\\
+\item Flynn Effect and age at first intercourse (with Rodgers)
+\item Genetically informed extension of the sibling comparison approach (with Rodgers \et)
+% \item Generalizability of the Terman longitudinal study of the gifted\smallskip\\
+%\item History of Lowell Kelly and his marriage study (with Connolly \et)\smallskip\\
+%\item Life history narratives from the KCLS (with Connolly \et\smallskip\\
+\item Personality's influence on partner health and longevity across multiple cohorts (with Jackson \et)
+%\item Validity of the Kelly Personality Rating Scale (with Jackson \et)
+\end{etaremune}{\large {\bf Software}}\begin{etaremune}
+\item \meb. (2015). Mason: Quantitative Personality Functions \R package version $\alpha$ \color{blue}{\url{https://github.com/smasongarrison/Mason_R_Package}}
+\end{etaremune}\end{rSection}
 
 %\pagebreak
 %----------------------------------------------------------------------------------------
