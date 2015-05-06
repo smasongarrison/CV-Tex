@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  6 MAY 2015 12:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  6 MAY 2015 12:13
 entering extended mode
 **SMasonGarrisonCV.tex
 ("C:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -392,7 +392,7 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [4]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 354.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 353.
 
 
 
@@ -404,19 +404,19 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 476.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 476.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
  ("C:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 476.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 476.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 475.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 475.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 476.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 475.
  ) 
 Here is how much of TeX's memory you used:
  6865 strings out of 493921
@@ -437,7 +437,7 @@ cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 si10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (7 pages, 152495 bytes).
+Output written on SMasonGarrisonCV.pdf (7 pages, 152446 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
