@@ -13,6 +13,7 @@
 \usepackage{xspace}
 \usepackage{etaremune}
 \usepackage{verbatim}
+\newcommand{\bigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
 \newcommand{\R}{\textup{\textrm{R}}\xspace}
 \newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
 \newcommand{\et}{\textit{et al}.\xspace}
@@ -43,7 +44,7 @@ M{\Large ason} %\textsuperscript{''}
 \hyphenation{LoveLogica}
 \hyphenation{Regression}
 \hyphenation{Exploratory}
-\hyphenation{Modeling}
+%\hyphenation{Modeling}
 \hyphenation{Mendle}
 %----------------------------------------------------------------------------------------
 %	EDUCATION4
@@ -54,7 +55,8 @@ M{\Large ason} %\textsuperscript{''}
 Ph.D Program in Psychological Sciences --- Quantitative Methods\hfill  {\em $\approx$ 2018} \\
 \hspace* {3 mm}\textit{Certificate: Experimental Education (in progress)}\\
 \hspace* {3 mm}Advisor: Joseph L. Rodgers\smallskip\\
-\textit{M.S. in Psychological Sciences} \hfill  {\em $\approx$ 2015} \\
+\textit{M.S. in Psychological Sciences} \hfill  {\em $\approx$ 2016} \\
+\hspace* {3 mm}Masters Thesis: Extensions of discordant kinship models.\\
 \hspace* {3 mm}Thesis Committee: Joseph L. Rodgers \& Kristopher J. Preacher\medskip\\
 \textbf{University of British Columbia}\hfill \textit{Fall 2015}\\ 
 Quinn Exchange Fellow at the Department of Psychology\\
@@ -70,7 +72,7 @@ Summer Scholar at the Interuniversity Consortium for Political and Social Resear
 %----------------------------------------------------------------------------------------
 %	Interests
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Interests}} \begin{center}Differential Epidemiology $\bullet$ Intelligence $\bullet$ Kinship--based Quasi--Experimental Designs $\bullet$ Personality\end{center}
+\begin{rSection}{\textrm{Interests}} \begin{center}Differential Epidemiology\bigcdot Intelligence\bigcdot Kinship--based Quasi--Experimental Designs\bigcdot Personality\end{center}
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %	Funds & Awards
@@ -102,6 +104,16 @@ WUStL Latin Honors \hfill  {2013}\smallskip\\
 %\vspace{-4mm}\begin{center}\footnotesize{ *upcoming* %or \textit{in progress}
 %}\end{center} \vspace{-4mm}
 %\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\textrm{Publications}}%:
+\begin{etaremune}\item Jackson, J. J., Connolly, J. J., \meb, Leveille, M. M., \& Connolly, S. L. (2015). Your friends know how long you will live: A 75-year study of peer-rated personality traits. \textit{Psychological Science, 26}(3),  335-340.\\ \href{http://pss.sagepub.com/content/early/2015/01/12/0956797614561800.full}{\color{blue}{doi:10.1177/0956797614561800}}
+\end{etaremune}\end{rSection}\vspace{-4mm}
+
+
+
 %----------------------------------------------------------------------------------------
 %	Administration
 %----------------------------------------------------------------------------------------
@@ -110,13 +122,6 @@ WUStL Latin Honors \hfill  {2013}\smallskip\\
 Lab Coordinator. Strube Social Behavior Lab,  WUStL\hfill Oct 2012 - Jul 2013
 \end{rSection}\end{samepage}%\newpage
 
-
-%----------------------------------------------------------------------------------------
-%	Publications
-%----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Publications}}%:
-\begin{etaremune}\item Jackson, J. J., Connolly, J. J., \meb, Leveille, M. M., \& Connolly, S. L. (2015). Your friends know how long you will live: A 75-year study of peer-rated personality traits. \textit{Psychological Science, 26}(3),  335-340.\\ \href{http://pss.sagepub.com/content/early/2015/01/12/0956797614561800.full}{\color{blue}{doi:10.1177/0956797614561800}}
-\end{etaremune}\end{rSection}\vspace{-4mm}
 
 %----------------------------------------------------------------------------------------
 %	Computer programs and documentation
@@ -143,7 +148,7 @@ Lab Coordinator. Strube Social Behavior Lab,  WUStL\hfill Oct 2012 - Jul 2013
 \markright{\textrm{\em GARRISON}}
 \item\meb, Hadd, A. R., \& Rodgers, J. L. (April 2014). Influence of adolescent intelligence and conscientiousness on health outcomes at middle age. Talk given at the Quantitative Methods Colloquium, Department of Psychology \& Human Development, Vanderbilt University, Nashville, Tennessee.
 \item\begin{samepage}Hadd, A. R., \meb, \& Rodgers, J. L. (April 2014). The relationship between maternal IQ and home environment. Talk given at the Quantitative Methods Colloquium, Department of Psychology \& Human Development, Vanderbilt University, Nashville, Tennessee.\end{samepage}%\pagebreak
-\pagebreak\item\begin{samepage}\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (February 2014). Peer-rated personality traits influence relationship duration and dissolution. Poster presented at the 15th Annual Meeting of the Society for Personality and Social Psychology, Austin, Texas. Also, presented at the 2nd Annual Lifespan Social-Personality  Preconference, Austin, Texas.\end{samepage}
+\item\begin{samepage}\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (February 2014). Peer-rated personality traits influence relationship duration and dissolution. Poster presented at the 15th Annual Meeting of the Society for Personality and Social Psychology, Austin, Texas. Also, presented at the 2nd Annual Lifespan Social-Personality  Preconference, Austin, Texas.\end{samepage}
 %\item\begin{samepage}\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (February 2014). Peer-rated personality traits influence relationship duration and divorce. Poster presented at the 2nd Annual Lifespan Social-Personality  Preconference, Austin, Texas.\end{samepage}
 \item\begin{samepage}Jackson, J. J., \textbf{Garrison, S. M.}, Connolly, J. J., \& Leveille, M. (February 2014). What your friends know that you don't: Friend rated personality predicts longevity 70 years later. Talk given at the 15th Annual Meeting of the Society for Personality and  Social Psychology, Austin, Texas.\end{samepage}
 \item\begin{samepage}\meb (April 2013). Domestic dissatis{\em fiction}: Gender differences in a multilevel model of marital satisfaction. Poster presented at the Annual Psychology Honors Symposium, Washington  University, St. Louis, Missouri. Also, presented at the Annual Undergraduate Research Symposium, Washington University, St. Louis, Missouri.\end{samepage}
@@ -181,8 +186,8 @@ Lab Coordinator. Strube Social Behavior Lab,  WUStL\hfill Oct 2012 - Jul 2013
 \begin{rSection}{\textrm{Current Work}}
 {\large {\bf Working Papers}}
 \begin{etaremune}\item\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (in prep). As time goes by: Personality predicts the timing of divorce over 45 years. %Target: \textit{JPSP}
-\item\meb \& Rodgers, J. L. (in prep). Flynn Effect and age at first intercourse.%Target: \textit{Intelligence}
-\item Rodgers, J. L., Beasley, W. H., Bard, D. E., Meredith, K. M., Hunter, M., Johnson, A. B., Buster, M., Li, C., May, K. O., \meb, Miller, W. M., van den Oord, E., Rowe, D. C. (submitted). The NLSY Kinship Links: Using the NLSY79 and NLSY--Children Data to Conduct Genetically--Informed and Family--Oriented Research.
+\item\meb \& Rodgers, J. L. (in prep). Intelligence and Age at First Intercourse: Cause or Confound?%Target: \textit{Intelligence}
+\item Rodgers, J. L., Beasley, W. H., Bard, D. E., Meredith, K. M., Hunter, M., Johnson, A. B., Buster, M., Li, C., May, K. O., \meb, Miller, W. M., van den Oord, E., \& Rowe, D. C. (submitted). The NLSY Kinship Links: Using the NLSY79 and NLSY--Children Data to Conduct Genetically--Informed and Family--Oriented Research.
 \end{etaremune}
 {\large {\bf Ongoing Analysis}}\begin{etaremune}
 %\item Altruism and longevity (with Connolly \et)\smallskip\\
@@ -194,10 +199,10 @@ Lab Coordinator. Strube Social Behavior Lab,  WUStL\hfill Oct 2012 - Jul 2013
 % \item Generalizability of the Terman longitudinal study of the gifted\smallskip\\
 %\item History of Lowell Kelly and his marriage study (with Connolly \et)\smallskip\\
 %\item Life history narratives from the KCLS (with Connolly \et\smallskip\\
-\item Personality's influence on partner health and longevity across multiple cohorts (with Jackson \et)
+%\item Personality's influence on partner health and longevity across multiple cohorts (with Jackson \et)
 %\item Validity of the Kelly Personality Rating Scale (with Jackson \et)
 \end{etaremune}{\large {\bf Software}}\begin{etaremune}
-\item \meb. (2015). DiscordKin: Kinship--based design functions. \R package version $\alpha$%\color{blue}{\url{https://github.com/smasongarrison/Mason_R_Package}}
+\item \meb (2015). DiscordKin: Kinship--based design functions. \R package version $\alpha$%\color{blue}{\url{https://github.com/smasongarrison/Mason_R_Package}}
 %\item \meb. (2015). Mason: Quantitative Personality Functions \R package version $\alpha$ \color{blue}{\url{https://github.com/smasongarrison/Mason_R_Package}}
 \end{etaremune}\end{rSection}
 
@@ -238,18 +243,19 @@ Research Assistant. Strube Social Behavior Lab, WUStL\hfill Jan 2012 - Oct 2012\
 {\large \textbf{Consulting}}\\
 \begin{tabular}{l l}
 Academic:&\parbox{.8\linewidth}{Holtzman Lab (Georgia Southern Univ.)%Nick
-, Kross Emotion \& Self Control Lab (UMich)%Darwin
-, Mendle Adolescent Transitions Lab (Cornell)% Spring 2015
-, Needham Infant Learning Lab (VU)% Jane H 4/15
-, Ryan Lab (Georgetown)%with Mendle Spring 2015
-, Strube Social Behavior Lab (WUStL)%PL
-, Turiano Lab (West Virginia Univ.)%Mar 2014 - Present NICK
-, Zald Affective Neuroscience Lab (VU)}\vspace{3mm}\\%2013 - Present; Joyce
+\bigcdot Kross Emotion \& Self Control Lab (UMich)%Darwin
+\bigcdot Leadership, Policy, \& Organizations Dept. (VU)%Tuan,Blissett summer 2015
+\bigcdot Mendle Adolescent Transitions Lab (Cornell)% Spring 2015
+\bigcdot Needham Infant Learning Lab (VU)% Jane H 4/15
+\bigcdot Ryan Lab (Georgetown)%with Mendle Spring 2015
+\bigcdot Strube Social Behavior Lab (WUStL)%PL
+\bigcdot Turiano Lab (West Virginia Univ.)%Mar 2014 - Present NICK
+\bigcdot Zald Affective Neuroscience Lab (VU)}\vspace{3mm}\\%2013 - Present; Joyce
 Industry:&\parbox{.75\linewidth}{Feed the Arts%Jun 2012 - Mar 2013; Jan 2015 - Present
-, Framew\"{u}rk%Feb 2013; Apr 2014
-, LoveLogica%Feb 2014 - Dec 2014
-, SkilledUp%Sep 2014
-, ReviewNet%May 2012 - Jun 2012
+\bigcdot Framew\"{u}rk%Feb 2013; Apr 2014
+\bigcdot LoveLogica%Feb 2014 - Dec 2014
+\bigcdot SkilledUp%Sep 2014
+\bigcdot ReviewNet%May 2012 - Jun 2012
 }\end{tabular}
 %Data Analysis Consultant. Feed the Arts\hfill Jun 2012 - Mar 2013; Jan 2015 - Present\smallskip\\
 %Assessment Consultant. SkilledUp\hfill Sep 2014\smallskip\\
@@ -396,26 +402,20 @@ Quantitative Methods \textrm{I}. Prof. J. Jackson, WUStL\hfill  {Fall 2012}\smal
 \pagebreak
 \begin{rSection}{\textrm{Skills}}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} p{14cm} }
-
-Certifications & Microsoft Office Access Specialist, Microsoft Office Excel Specialist\medskip\\
-Coding & HTML, %Java (I only know enough to be dangerous), 
-\LaTeX, Lua, Markdown, Python, \R \medskip\\
-Languages & English, Latin\medskip\\
-Select Software & %Adobe Illustrator, Amos,
-BUGS/JAGS,
-%Eviews, %GIMP,
-\href{https://github.com/smasongarrison}{Git}, % Google Analytics, 
-LISREL, % Mechanical Turk, 
-Mplus, %Mondrian, Oracle VirtualBox, PsychoPy, Qualtrics, 
-\R, %REDCap, 
-SAS, SPSS%/PSPP, SuperLab, Microsoft Office and other common productivity packages for Windows and OS platforms
-\medskip\\
-Statistics & Bayesian Methods, Behavior Genetics/Biometrical Modeling%(\eg DF Analysis, MDAN Design)
-, Classical Test Theory%(\eg Extrinsic Convergent Validation, Multitrait-Multimethod Matrices)
-, Dyad Modeling, Exploratory Data Analysis, Factor Analysis, %fMRI Modeling,  
-Generalized Linear Modeling%(\eg ANCOVA, Regression), 
-, Item Response Theory, Monte Carlo Simulations, Multilevel Modeling, Robust Methods%(\eg Cross-Validation)
-, Quasi-Experimental Designs, Structure Equation Modeling, Survival Analysis %(\eg Additive Hazard, Cox Regression)
+Certifications & Microsoft Office Access Specialist\bigcdot Microsoft Office Excel Specialist\medskip\\
+Coding & HTML\bigcdot %Java (I only know enough to be dangerous)\bigcdot 
+\LaTeX\bigcdot Lua\bigcdot Markdown\bigcdot Python\bigcdot \R \medskip\\
+Languages & English\bigcdot Latin\medskip\\
+Select Software & %Adobe Illustrator\bigcdot Amos\bigcdot
+BUGS/JAGS\bigcdot
+%Eviews\bigcdot %GIMP\bigcdot
+\href{https://github.com/smasongarrison}{Git}\bigcdot % Google Analytics\bigcdot 
+LISREL\bigcdot % Mechanical Turk\bigcdot 
+Mplus\bigcdot %Mondrian\bigcdot Oracle VirtualBox\bigcdot PsychoPy\bigcdot Qualtrics\bigcdot 
+\R\bigcdot %REDCap\bigcdot 
+SAS\bigcdot SPSS%/PSPP\bigcdot SuperLab\bigcdot Microsoft Office and other common productivity packages for Windows and OS platforms
+\medskip\\ %fMRI Modeling\bigcdot  
+Statistics & Bayesian Methods\bigcdot Behavioral Genetics/Biometrical Modeling\bigcdot Classical Test The-ory\bigcdot Dyad Modeling\bigcdot Exploratory Data Analysis\bigcdot Factor Analysis\bigcdot Generalized Linear Modeling\bigcdot Item Response Theory\bigcdot Monte Carlo Simulations\bigcdot Multilevel Modeling\bigcdot Robust Methods\bigcdot Quasi-Experimental Designs\bigcdot Structure Equation Modeling\bigcdot Survival Analysis %(\eg Additive Hazard, Cox Regression)
 \end{tabular}
 
 \end{rSection}
