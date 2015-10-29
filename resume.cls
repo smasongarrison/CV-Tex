@@ -29,7 +29,34 @@
 \pagestyle{empty} % Suppress page numbers
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,pdfborder={0 0 0},}
+\setlength{\headheight}{0pt}
+\usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.55in]{geometry} % Document margins
+\usepackage{color}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{etaremune}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{setspace}
+\singlespacing
+%%%%%%%%Formatting
+\newlength{\wideitemsep}
+\setlength{\wideitemsep}{\itemsep}
+\addtolength{\wideitemsep}{-3pt}
+\let\olditem\item
+\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
+\renewcommand*{\familydefault}{\sfdefault}
 
+%%%%%%%%New Command
+\newcommand{\bigcdot}{\hspace* {-.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
+\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
+\newcommand{\R}{\textup{\textrm{R}}\xspace}
+\newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
+\newcommand{\et}{\textit{et al}.\xspace}
+\newcommand{\eg}{\textit{e.g},\xspace}
+\newcommand{\student}{\hspace{-3.95pt}\textsuperscript{*}\hspace* {2 pt}}
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
