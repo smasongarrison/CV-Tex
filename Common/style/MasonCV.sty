@@ -1,47 +1,47 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV - RESUME CLASS FILE
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% This class file defines the structure and design of the template. 
-%
-% Original header:
-% Copyright (C) 2010 by Trey Hunner
-%
-% Copying and distribution of this file, with or without modification,
-% are permitted in any medium without royalty provided the copyright
-% notice and this notice are preserved. This file is offered as-is,
-% without any warranty.
-%
-% Created by Trey Hunner and modified by www.LaTeXTemplates.com
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
-
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
-
-\usepackage[parfill]{parskip} % Remove paragraph indentation
-\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
-\usepackage{ifthen} % Required for ifthenelse statements
-
-\pagestyle{empty} % Suppress page numbers
-\usepackage{hyperref}
-\hypersetup{colorlinks=false,pdfborder={0 0 0},}
-\setlength{\headheight}{0pt}
-\usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.55in]{geometry} % Document margins
-\usepackage{color}
+%----------------------------------------------------------------------------------------
+% 		Packages 
+%----------------------------------------------------------------------------------------
+%%%%%% Formating %%%%%%
+%% Font\Language
 \usepackage [english]{babel}
 \usepackage [autostyle, english = american]{csquotes}
-\usepackage{hyperref}
-\usepackage{xspace}
-\usepackage{etaremune}
 \usepackage{verbatim}
-\usepackage{enumitem}
+%% Style
+\pagestyle{empty} % Suppress page numbers
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false,pdfborder={0 0 0},}
+\usepackage{etaremune}
 \usepackage{setspace}
+\usepackage{enumitem}
+
+%%%%%% Layout %%%%%%
+\setlength{\headheight}{0pt}
+\usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.55in]{geometry} % Document margins
+\usepackage{xspace}
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+
+%----------------------------------------------------------------------------------------
+% 		Commands 
+%----------------------------------------------------------------------------------------
+\usepackage{ifthen} % Required for ifthenelse statements
+
+%% New Commands
+\newcommand{\bigcdot}{\hspace* {-.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
+\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
+\newcommand{\R}{\textup{\textrm{R}}\xspace}
+\newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
+\newcommand{\Joe}{Rodgers, J. L.\xspace}
+\newcommand{\et}{\textit{et al}.\xspace}
+\newcommand{\eg}{\textit{e.g},\xspace}
+\newcommand{\student}{\hspace{-3.95pt}\textsuperscript{*}\hspace* {2 pt}}
+
+%% Definitions
+\def\pindent{3 mm}
+
+%% Formatting
 \singlespacing
-%%%%%%%%Formatting
 \newlength{\wideitemsep}
 \setlength{\wideitemsep}{\itemsep}
 \addtolength{\wideitemsep}{-3pt}
@@ -49,14 +49,7 @@
 \renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
 \renewcommand*{\familydefault}{\sfdefault}
 
-%%%%%%%%New Command
-\newcommand{\bigcdot}{\hspace* {-.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
-\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
-\newcommand{\R}{\textup{\textrm{R}}\xspace}
-\newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
-\newcommand{\et}{\textit{et al}.\xspace}
-\newcommand{\eg}{\textit{e.g},\xspace}
-\newcommand{\student}{\hspace{-3.95pt}\textsuperscript{*}\hspace* {2 pt}}
+
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------

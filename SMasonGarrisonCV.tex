@@ -1,311 +1,112 @@
-
- %----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
-\documentclass {resume} 
-
-
-%%%%%%% Header
-\name{\textrm{S{\tiny(arah)} %\textsuperscript{``}
-M{\Large ason} %\textsuperscript{''}
- G{\Large arrison}}}
+%	Preamble
+%----------------------------------------------------------------------------------------
+%%%% Pagackes %%%%
+\documentclass [11pt,letterpaper]{article} 
+\usepackage{Common/style/MasonCV}
+%
+%
+%
+%
+%%%% Title %%%%
+% Name
+\name{\textrm{S{\tiny(arah)} M{\Large ason} G{\Large arrison}}}
+%
+% First Line Under
 \address{Hobbs Building, Room 203 \\ Vanderbilt	University, Peabody College}
 %230 Appleton Place PMB #552 Nashville, TN 37203
+%
+% 2nd Line Under
 \address{\href{www.smasongarrison.com}{www.smasongarrison.com} \\ s.mason.garrison@gmail.com}
-
-
+%
 \begin{document}
+% 1st Page Header
 \thispagestyle{myheadings}\markright{\em{\textrm \today}}
 \pagestyle{myheadings}
+% Alld other Page Headers
 \markright{\textrm{\em GARRISON}}
-
+%
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-
-\begin{rSection}{\textrm{Education}}
-{\bf Vanderbilt University, Peabody College}\\
-Ph.D Program in Psychological Sciences --- Quantitative Methods\hfill  {\em $\approx$ 2018} \\
-\hspace* {3 mm}\textit{Certificate: Experimental Education (in progress)}\\
-\hspace* {3 mm}Advisor: Joseph L. Rodgers%\begin{comment}
-\smallskip\\
-\textit{M.S. in Psychological Sciences} \hfill  {\em $\approx$ 2016} \\
-\hspace* {3 mm}Masters Thesis: Extensions of discordant kinship models.\\
-\hspace* {3 mm}Thesis Committee: Joseph L. Rodgers \& Kristopher J. Preacher%\end{comment}
-\medskip\\
-\textbf{University of British Columbia}\hfill \textit{Fall 2015}\\ 
-Visiting International Researcher \& Quinn Exchange Fellow\\
-\hspace* {3 mm}Department of Psychology\\
-\hspace* {3 mm}Sponsor: Jeremy C. Biesanz\medskip\\
-\textbf{University of Michigan, Ann Arbor}\hfill Summer 2014\\ 
-Summer Scholar at the Interuniversity Consortium for Political and Social Research\medskip\\
-{\bf Washington University in St. Louis}\\
-{\em A.B} in Economics \& Psychology, \textit{magna cum laude} \hfill  {May 2013} \\
-\hspace* {3 mm}Honors Thesis: Gender differences in a multilevel model of marital satisfaction after 20 years.\\
-\hspace* {3 mm}Thesis Advisor: Michael J. Strube%\medskip\\
-\end{rSection}
-
+\input{Common/content/Education.txt}
+%
 %----------------------------------------------------------------------------------------
 %	Interests
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Interests}} \begin{center}Archival Data \bigcdot Differential Epidemiology \bigcdot Dyad Modeling \bigcdot Intelligence \bigcdot Kinship-Based Designs \bigcdot Personality\end{center}
-\end{rSection}
-
+\input{Common/content/Interests.txt}
+%
 %----------------------------------------------------------------------------------------
 %	Administration
 %----------------------------------------------------------------------------------------
-\begin{samepage}\begin{rSection}{\textrm{Administration}}Co-Director. Kelly/Connolly Longitudinal Marriage Study on Personality and Aging\hfill Dec 2012 - Present\smallskip\\
-%Lab Manager. Rodgers Lab, Vanderbilt  \hfill Aug 2013 - Present\smallskip\\
-Lab Coordinator. Strube Social Behavior Lab,  WUStL\hfill Oct 2012 - Jul 2013\end{rSection}\end{samepage}%\newpage
-
+\input{Common/content/Administration.txt}
+%
 %----------------------------------------------------------------------------------------
 %	Publications
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Publications}}%:
-\begin{etaremune}\item Jackson, J. J., Connolly, J. J., \meb, Leveille, M. M., \& Connolly, S. L. (2015). Your friends know how long you will live: A 75-year study of peer-rated personality traits. \textit{Psychological Science, 26}(3),  335-340.\\ \href{http://pss.sagepub.com/content/early/2015/01/12/0956797614561800.full}{\color{blue}{doi:10.1177/0956797614561800}}
-\end{etaremune}\end{rSection}%\vspace{-4mm}
-
+\input{Common/content/Research/Publications.txt}
+%
+%----------------------------------------------------------------------------------------
+%	Software
+%----------------------------------------------------------------------------------------
+\input{Common/content/Research/Software.txt}
+%
 %----------------------------------------------------------------------------------------
 %	Funds & Awards
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Select Awards \& Honors}}
-National Science Foundation Graduate Research Fellowship (\$138,000) \hfill{2015 - 2020}\smallskip\\
-Vanderbilt Graduate Honor Fellowship (\$50,000)	\hfill{2013 - 2018}\smallskip\\	
-%Peabody \& Vanderbilt Travel Grants (\$10,000)      \hfill  {2013 - 2018}\smallskip\\
-SPSP Diversity Fund Graduate Travel Award %(\$500) 
-\hfill{2015}\smallskip\\
-SPSP Graduate Travel Award %(\$500) 
-{\small \textit{Declined}} \hfill{2015}\smallskip\\
-%Peabody Dean's Fellowship (\$10,000)					\hfill  {2013; 2015}\smallskip\\
-UBC Quinn Exchange Fellowship (C\$3,000) \hfill{2015}\smallskip\\
-Tennessee Psychological Association, 3\textsuperscript{rd} Place Undergraduate Poster Competition \hfill{2014}\smallskip\\
-ICPSR Jerome M. Clubb Scholarship (\$4,000) \hfill{2014}\smallskip\\
-%Peabody Dean's Summer Scholarship (\$5,334)			    \hfill  {2013; 2014}\smallskip\\	
-SMEP Workshop Travel Award (\$1,000) \hfill{2014}\smallskip\\
-%Vanderbilt Technology Fund (\$1,000)				\hfill  {2013}\smallskip\\
-Robert Hogan Family Foundation Travel Grant (\$1,200) 	\hfill  {2013}\smallskip\\
-Hayek Fund for Future Scholars                      \hfill  {2013}\smallskip\\
-\begin{minipage}{\linewidth}\vspace{1.1mm} WUStL Latin Honors \hfill  {2013}\smallskip\\
-\textit{Sigma Xi} Science Honors Society                    			\hfill  {2013}
-\end{minipage}%\smallskip\\
-\end{rSection}
-
-%\textit{Phi Eta Sigma} National Honors Society                     	\hfill  {2009}\smallskip\\
-%Tulane Honors Program \hfill {2009}\smallskip\\
-%Tulane Deans List                  			\hfill  {2008 - 2009}\smallskip\\
-%Tulane Presidential Scholar (\$96,000) 				\hfill  {2008 - 2009}%\\
-%{\scriptsize $\cdot$  {\em N.B.} : I declined this merit scholarship when I transferred institutions.}
-%\vspace{-4mm}\begin{center}\footnotesize{ *upcoming* %or \textit{in progress}
-%}\end{center} \vspace{-4mm}
-%\end{rSection}
-
+\input{Common/content/Funds.txt}
+%
 %----------------------------------------------------------------------------------------
-%	Computer programs and documentation
+%	Working Papers
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Software}}%:
-\begin{etaremune}\item  Beasley, W., Rodgers, J. L., Bard, D., Hunter, M., \meb, \& Meredith, K. (2015). NlsyLinks: Utilities and kinship information for research with the NLSY \R package \href{https://cran.r-project.org/web/packages/NlsyLinks}{\color{blue}{https://cran.r-project.org/web/packages/NlsyLinks}}\end{etaremune}\end{rSection}
-
+\input{Common/content/Research/WorkingPapers.txt}
+%
 %----------------------------------------------------------------------------------------
 %	Presentations
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Presentations}}
+%
 {\large {\bf Conference}}\begin{etaremune}
-\item \meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (January 2016). When does personality influence the timing of divorce?: A dyadic Aalen regression of peer-rated personality over 45 years. Poster to be presented at the 17th Annual Meeting of the Society for Personality and Social Psychology, San Diego, CA. Also, to be presented at the 4th Annual Lifespan Social-Personality  Preconference, San Diego, CA.
-\item Zhu, J. Y., \meb, Rodgers, J. L. \& Zald, D. H. (January 2016). Shaping Perseverance: Evidence of shared environmental effects on Grit and a task-based measure of persistence. Poster to be presented at the 17th Annual Meeting of the Society for Personality and Social Psychology, San Diego, CA.
-\item Rodgers, J. L. \& \meb (September 2015). Do intelligent girls delay age at first intercourse?:  Different results within-families versus between-families. Talk given at the International Society for Intelligence Research Annual Conference in Albuquerque, NM.
-\item \meb \& Rodgers, J. L. (June 2015). Additive effects of maternal conscientiousness and general ability on infant health: Cause or Confound? Poster presented at the 2015 Association for Research in Personality Conference, St. Louis, MO.%\pagebreak
-\item \meb, Hadd, A. R., \& Rodgers, J. L. (February 2015). Impact of adolescent conscientiousness and intelligence on health at middle age: A sibling comparison approach. Poster presented at the 16th Annual Meeting of the Society for Personality and  Social Psychology, Long Beach, CA. Also, presented at the 3rd Annual Lifespan Social-Personality Preconference, Long Beach, CA.
-\item Jackson, J. J., \textbf{Garrison, S. M.}, Connolly, J. J., \& Leveille, M. (February 2015). Using multiple perspectives to inform the association between personality and important life outcomes. Talk given at the 16th Annual Meeting of the Society for Personality and  Social Psychology, Long Beach, CA.
-\item\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (February 2015). Agreeableness-Stress interactions explored: Within couple differences partially moderate the relationship between stress and divorce. Poster presented at the 3rd Annual Lifespan Social-Personality Preconference, Long Beach, CA.
-\item Romick, K.,\student \meb, \& Rodgers, J. L. (November 2014). Early book ownership: Catalyst for future reading enjoyment and achievement. Poster presented at the 2014 Tennessee Psychological Association Annual Convention, Nashville, TN. \textit{Poster awarded 3\textsuperscript{rd} place in Undergraduate Poster Competition}
-\item\meb, Hadd, A. R., \& Rodgers, J. L. (October 2014). The downstream health consequences of individual differences: Evidence from a kinship modeling perspective. Poster presented at the 2014 Tennessee Psychological Association Annual Convention, Nashville, TN.
-\item Connolly, J. J., Leveille, M., \meb, \& Jackson, J. J. (October 2014). Relief,  regret,  resilience: The  long-term  psychological  effects  of  getting divorced. Paper presented at the 28th Annual Convention of the Connecticut Psychological Association, Haddam, CT.
-\item\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (July 2014). Your friends know when you will divorce: A dyadic Cox regression of peer-rated personality. Poster presented at the 17th Annual Meeting of the European Conference on Personality, Lausanne, Switzerland.
-\item Jackson, J. J., \meb, Connolly, J. J., \& Leveille, M. (July 2014). Personality trait change in adulthood predicts health status in older adulthood. Talk given at the 17th Annual Meeting of the European Conference on Personality, Lausanne, Switzerland.
-\item Rodgers, J. L., \meb, \& Hadd, A. R. (June 2014). Intelligence and Fertility in the NLSY79 Respondents: Children of Siblings and Biometrical Models. Paper presented at the 2014 Behavior Genetics Association, Charlottesville, VA. 
-\pagestyle{myheadings}\markright{\textrm{\em GARRISON}}
-\item\meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (February 2014). Peer-rated personality traits influence relationship duration and dissolution. Poster presented at the 15th Annual Meeting of the Society for Personality and Social Psychology, Austin, TX. Also, presented at the 2nd Annual Lifespan Social-Personality  Preconference, Austin, TX.
-\item Jackson, J. J., \textbf{Garrison, S. M.}, Connolly, J. J., \& Leveille, M. (February 2014). What your friends know that you don't: Friend rated personality predicts longevity 70 years later. Talk given at the 15th Annual Meeting of the Society for Personality and  Social Psychology, Austin, TX.
-
-
+\input{Common/content/Research/Presentations/Conference.txt}
+%
 \hspace{-7mm}{\large {\bf Departmental}}
-\item \meb, Connolly, J. J., Leveille, M., Biesanz, J. \& Jackson, J. J.,  (February 2016) Personality, Intelligence, and Mortality. Talk to be given at the Health Psychology Area Workshop, Department of Psychology, University of British Columbia, Vancouver, BC.
-\item \meb, Connolly, J. J., Leveille, M., \& Jackson, J. J. (November 2015) Personality and the Timing of Divorce. Talk to be given at the Junior Fellows Speaker Series, St. John's College, University of British Columbia, Vancouver, BC.
-\item\meb \& Rodgers, J. L. (April 2015). Smarter girls \textit{really don't} delay sex: An extended discordant siblings model. Talk given at the Quantitative Methods Colloquium, Department of Psychology \& Human Development, Vanderbilt University, Nashville, TN.
-\item\meb, Hadd, A. R., \& Rodgers, J. L. (April 2014). Influence of adolescent intelligence and conscientiousness on health outcomes at middle age. Talk given at the Quantitative Methods Colloquium, Department of Psychology \& Human Development, Vanderbilt University, Nashville, TN.
-\item Hadd, A. R., \meb, \& Rodgers, J. L. (April 2014). The relationship between maternal IQ and home environment. Talk given at the Quantitative Methods Colloquium, Department of Psychology \& Human Development, Vanderbilt University, Nashville, TN.
-\item\meb \& Strube, M. J.(April 2013). Domestic dissatis{\em fiction}: Gender differences in a multilevel model of marital satisfaction. Poster presented at the Annual Psychology Honors Symposium, WUStL, St. Louis, MO. Also, presented at the Annual Undergraduate Research Symposium, WUStL, St. Louis, MO.
-%\item\meb (2013). Domestic dissatis{\em fiction} or dissatis{\em fact}ion?: Gender differences in a multilevel model of marital satisfaction using prenuptial marital expectations after 20 years. [Abstract] {\em Washington University Senior Honors Thesis Abstracts. 5}, 166
-\end{etaremune}
-
-%\pagebreak\vspace{-3mm}\begin{center}\footnotesize{*denotes undergraduate student co-author*}\end{center} \vspace{-3mm}%\pagebreak
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	Other Articles
-%----------------------------------------------------------------------------------------
-%\begin{rSection}{\textrm{Popular Press Publications}} \begin{etaremune}
-%\item\textbf{Garrison, S. M.} (in press). How jealous are you? \textit{LoveLogica}.
-%\item\textbf{Garrison, S. M.} (in press). The Kinsey Scale. \textit{LoveLogica}.%\pagebreak
-%\item\textbf{Garrison, S. M.} (in press). How masculine AND feminine are you?: Gender roles and personality. \textit{LoveLogica}.
-%\item\textbf{Garrison, S. M.} (in press). %Are you ready for romance?: 
-%The romantic personality and relationship readiness. \textit{LoveLogica}.
-%\item\textbf{Garrison, S. M.} (in press). Attachment style and relationships. \textit{LoveLogica}.
-%\item\meb(in press). The science behind birds of a feather: Assortative mating on personality. \textit{LoveLogica}.
-%\end{etaremune}\end{rSection}
-%----------------------------------------------------------------------------------------
-%	Abstracts
-%----------------------------------------------------------------------------------------
-\begin{comment}\begin{rSection}{\textrm{Published Abstracts}}
-\begin{etaremune}.\end{etaremune}\end{rSection}\end{comment}%\pagebreak
-
-%----------------------------------------------------------------------------------------
-%	Submitted/In prep Abstracts
-%--------------------------------
-\begin{comment}
-\begin{itemize}
-
-\end{itemize}
-\end{comment}
-%----------------------------------------------------------------------------------------
-%	Current Projects
-%----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Working Papers}}
-\begin{etaremune}
-\item Rodgers, J. L., Beasley, W. H., Bard, D. E., Meredith, K. M., Hunter, M., Johnson, A. B., Buster, M., Li, C., May, K. O., \meb, Miller, W. M., van den Oord, E., \& Rowe, D. C. (Revise-Resubmit). The NLSY Kinship Links: Using the NLSY79 and NLSY--Children Data to Conduct Genetically--Informed and Family--Oriented Research. \textit{Behavior Genetics}.
-\item\meb, Connolly, J. J., Leveille, M., Kelly, E. L., \& Jackson, J. J. (in prep). As time goes by: Personality predicts the timing of divorce over 45 years. %Target: \textit{JPSP}
-\item\meb \& Rodgers, J. L. (in prep). Intelligence and Age at First Intercourse: Cause or Confound?%Target: \textit{Intelligence}
-\item Stephenson, E., \meb, Lam, M., Biesanz, J., \& DeLongis, A. (in prep). Mediation in Multivariate Dyadic Survival Analysis: Findings from the Alameda Study. %Target: \textit{Science}
-\item Zhu, J. Y., \meb, Hunter, M., Rodgers, J. L. \& Zald, D. H.(in prep). Shaping Perseverance: Evidence of shared environmental effects on Grit and a task-based measure of persistence.%Target: \textit{Psych Science}
-\end{etaremune}
-\end{rSection}
-
-%\pagebreak
+\input{Common/content/Research/Presentations/Departmental.txt}
+\end{etaremune}\end{rSection}
+%
 %----------------------------------------------------------------------------------------
 %	Teaching
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Teaching}}
-\vspace*{2pt}
-\begin{minipage}{\linewidth}{\large {\bf Instructor}\\}
-Statistics and Stories. Vanderbilt Summer Academy \hfill{\textit{Summer 2016}}\\
-\end{minipage}
-\begin{minipage}{\linewidth}{\large {\bf Laboratory Instructor}\\}
-Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill  {Spring 2014}\\
-\hspace* {6 mm}Lecture Topics: Excel Tutorials, Graphical Data Analysis, Hypothesis Testing,\\
-\hspace* {6 mm}Probability Distributions, Scale Development, Statistical Literacy, Z-Scores\end{minipage}\smallskip\\
-Introduction to Statistical Analysis. Prof. James H. Steiger, Vanderbilt\hfill  {Fall 2013}\\
-\hspace* {6 mm}Lecture Topics: Power and Effect Size, R Tutorials\medskip\\%\pagebreak
-\begin{minipage}{\linewidth}{\large {\bf Teaching Assistant}}\\
-Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill  {Spring 2014}\smallskip\\
-Introduction to Statistical Analysis. Prof. James H. Steiger, Vanderbilt\hfill  {Fall 2013}\smallskip\\
-Introduction to Social Psychology. Prof. Michael J. Strube, WUStL\hfill{Fall 2012}\end{minipage}\medskip\\
-\begin{minipage}{\linewidth}{\large {\bf Disability Support}}\\
-Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill  {Spring 2015}\smallskip\\
-Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill{Spring 2014}\end{minipage}
-\end{rSection}%\pagebreak
-%-------------------------------------------------------------------
+\pagebreak
+\input{Common/content/Teaching.txt}
+%
+%----------------------------------------------------------------------------------------
 %	Experience
 %----------------------------------------------------------------------------------------
-
-\begin{rSection}{\textrm{EXPERIENCE}}
+\begin{rSection}{\textrm{Experience}}
 {\large \textbf{Academic}}\\
-Visiting Graduate Researcher. Biesanz Social Accuracy Laboratory, UBC\hfill Jul 2015 - Present\smallskip\\
-User and Statistical Support, NLSY79 Kinship Links. Rodgers Lab, Vanderbilt\hfill Feb 2014; Aug 2014 - Present\smallskip\\%\pagebreak
-Graduate Researcher. Rodgers Lab, Vanderbilt\hfill Jul 2013 - Present\smallskip\\
-Research Affiliate. Jackson Personality Measurement $\&$ Development Lab, WUStL \hfill Jul 2013 - Present\smallskip\\
-Research Assistant. Jackson Personality Measurement $\&$ Development Lab, WUStL\hfill Aug 2012 - Jul 2013\smallskip\\
-Research Assistant. Strube Social Behavior Lab, WUStL\hfill Jan 2012 - Oct 2012\medskip\\%\pagebreak
+\input{Common/content/Experience/Academic.txt}
+%
 {\large \textbf{Consulting}}*\\
-\begin{tabular}{l l}
-U. of British Columbia&\parbox{.6\linewidth}{Sauder School of Business, % Adobea Foli Sept 19 2015
-Paulhus Personality Lab}\smallskip\\ %Patrick D.7/15/15
-Cornell U.&\parbox{.6\linewidth}{Mendle Adolescent Transitions Lab}\smallskip\\ %with Ryan Spring 2015
-Georgetown U.&\parbox{.6\linewidth}{Ryan Lab}\smallskip\\ %with Mendle Spring 2015
-Georgia Southern U.&\parbox{.6\linewidth}{Holtzman Lab}\smallskip\\ %Nick
-U. of Michigan&\parbox{.6\linewidth}{Kross Emotion \& Self Control Lab}\vspace{0mm}\smallskip\\ %Darwin
-Northwestern U.&\parbox{.6\linewidth}{Mroczek Lab % Magdalena Leszko 10/17/15
-}\vspace{1mm}\smallskip\\
-Vanderbilt U.&\parbox{.6\linewidth}{Leadership, Policy, \& Organizations Dept., %Tuan,Blissett summer 2015
-Needham Infant Learning Lab, % Jane H 4/15 %Sarah W. 8/26/15
-Zald Affective Neuroscience Lab}\vspace{2mm}\smallskip\\
- %2013 - Present; Joyce
-WUStL&\parbox{.6\linewidth}{Jackson Personality Measurement $\&$ Development Lab, Strube Social Behavior Lab}\vspace{2mm}\smallskip\\ %PL
-West Virginia U.&\parbox{.6\linewidth}{Turiano Personality, Health, \& Development Lab}\smallskip\\ %Mar 2014 - Present NICK
-Industry&\parbox{.6\linewidth}{Feed the Arts, %Jun 2012 - Mar 2013; Jan 2015 - Present
-Framew\"{u}rk, %Feb 2013; Apr 2014
-LoveLogica, %Feb 2014 - Dec 2014
-SkilledUp, %Sep 2014
-ReviewNet}\end{tabular}\vspace{-.7mm} %May 2012 - Jun 2012
-\begin{center}
-{ \footnotesize *includes faculty, postdocs, and graduate students*}
-\medskip\\\vspace{-4.5mm}\end{center}
-
-%Data Analysis Consultant. Feed the Arts\hfill Jun 2012 - Mar 2013; Jan 2015 - Present\smallskip\\
-%Assessment Consultant. SkilledUp\hfill Sep 2014\smallskip\\
-%Lead Test Developer. LoveLogica\hfill Feb 2014 - Dec 2014\smallskip\\
-%Assessment Consultant. Framew\"{u}rk\hfill Feb 2013; Apr 2014\smallskip\\
-%Assessment Consultant. ReviewNet\hfill May 2012 - Jun 2012\medskip\\%\pagebreak\\
-{\large \textbf{Field Work}}\\
-Visiting Researcher. Bentley Historical Library, U. of Michigan\hfill Jul 2014\smallskip\\
-Visiting Researcher. Institute for Quantitative Social Science, Harvard \hfill Jan 2013%\smallskip\\
+\input{Common/content/Experience/Consulting.txt}
+%
+\input{Common/content/Experience/FieldWork.txt}
 \end{rSection}%\pagebreak
-
+%
 %----------------------------------------------------------------------------------------
 %	Service
 %----------------------------------------------------------------------------------------
+\pagebreak
 \begin{rSection}{\textrm{Service}}
-{\large \textbf{National}}\\
-Volunteer, On-Site. SPSP Annual Meeting\hfill{\textit{Jan 2016}}\smallskip\\
-Reviewer, SPSP Program Committee (Undergrad) Poster Review Panel\hfill{Sep 2015}\smallskip\\
-Volunteer, Conference Transportation. SMEP Annual Meeting\hfill{Oct 2014}\medskip\\
-{\large \textbf{Department \& University}}\\
-Panelist, Path to Graduate School Panel. Dept. of Psychology, UBC\hfill {Sep 2015}\smallskip\\
-Panelist, Doctoral Application Advice. Dept. of Psychology \& Human Dev., Vanderbilt\hfill {Apr 2014; Mar 2015}\smallskip\\
-Panelist, Graduate Application Advice. Psychological Sciences Honors Program, Vanderbilt\hfill {Sep 2014}\smallskip\\
-Panelist, Graduate School Admissions. \textit{Psi Chi}, Vanderbilt\hfill {Sep 2013}\smallskip\\
-President, Undergraduate Economics Association. Dept. of Economics, WUStL\hfill  {May 2011 - Dec 2011}\smallskip\\
-\begin{minipage}{\linewidth}\vspace{1.1mm} Treasurer, Undergraduate Economics Association. Dept. of Economics, WUStL\hfill{May 2010 - May 2011}\smallskip\\
-Marketing Executive, Undergraduate Economics Association. Dept. of Economics, WUStL\hfill  {Aug 2009 - May 2010}\end{minipage}\medskip\\
-\begin{minipage}{\linewidth}\vspace{1.1mm} {\large \textbf{Editorial Boards}}\\
-Graduate Advisor (General Statistics), Undergraduate Journal of Psychology, UBC \hfill{Sep 2015 - Present}\smallskip\\
-Graduate Advisor (Health Psychology), Undergraduate Journal of Psychology, UBC\hfill{Sep 2015 - Present}\end{minipage}\medskip\\
-{\large \textbf{Ad Hoc Reviewer}}\smallskip\\
-\begin{tabular}{ @{} >{}l @{\hspace{6ex}} p{14cm} }
-Awards/Grants & APS Student Council Student Research Award \bigcdot %Mar 2014}
-APSSC Student Grant Competition \bigcdot     %Dec 2014
-SPSP Graduate Student Council Student Poster Award\smallskip\\ %Nov 2013}
-Conferences & AERA Annual Meeting SIG-Cognition and Assessment \bigcdot %\hfill{Aug 2014} 
-AERA Annual Meeting SIG-Test Validity Research and Evaluation \bigcdot %Aug 2014}
-SPSP Annual Meeting Undergraduate Posters\smallskip\\%Sept2015}
-Journals & Journal of Family Issues \bigcdot %(Nov 2014; Jul 2014)
-Journal of Research in Personality \bigcdot % (Feb 2015)
-Translational Issues in Psychological Science% Sept 2015
-\end{tabular}
+\input{Common/content/Service/Service.txt}
 \end{rSection}
-
+%
 %----------------------------------------------------------------------------------------
 %	Committees
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Committees}}
-{\large \textbf{Undergraduate Honors Theses Committees}}\\
-Sloane Sparks (Apr 2014), \textit{Gender Differences in Emotional Intelligence: Positive Emotions and Appraisal Theory}.%\\
-%\hspace* {6 mm}Currently, a graduate student at Vanderbilt School of Nursing.
-\smallskip\\%\newpage
-Lydia Fuller (Apr 2014), \textit{GED Student Achievement Trajectories and Predictors: Using the Latent Class Growth\\
-\hspace* {6 mm}Model to Understand Heterogeneous Learning Patterns}.%\\
-%\hspace* {6 mm}Currently, a consultant at Bain \& Company, with deferred admission to Yale Law School.
-\end{rSection}%\pagebreak
-
-%----------------------------------------------------------------------------------------
-%	Undergraduate Research Supervision
-%----------------------------------------------------------------------------------------
-%\newpage 
-%\begin{rSection}{\textrm{Research Supervision}}
-%{\large \textbf{Undergraduate}}\\
-%Markiewitz, Nathan, Vanderbilt University\hfill{2013 - 2014}\smallskip\\
-%Romick, Kayley, Vanderbilt University\hfill{2013 - 2014}
-%\end{rSection}%\newpage
+\input{Common/content/Service/Committees.txt}
+\end{rSection}
+%
 %----------------------------------------------------------------------------------------
 %	Outreach
 %----------------------------------------------------------------------------------------
@@ -327,9 +128,9 @@ Member, Peabody Queeries (Q.Ed). Peabody College, Vanderbilt\hfill  {Aug 2013 - 
 %Member, Science Cafe. Adventure Science Center, Nashville, TN\hfill  {May 2013 - Present}\smallskip\\
 %Member, Pride Alliance. WUStL\hfill  {Aug 2009 - May 2013}
 {\large \textbf{Wikiprojects}}\smallskip\\
-\begin{tabular}{ @{} >{}l @{\hspace{6ex}} p{14cm} }
-Assessment in Psychology Wikiproject &  TBA \smallskip\\
+\begin{tabular}{@{} >{}l @{\hspace{6ex}} p{14cm} }
 Psychology Wikiproject &  \href{https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology}{\color{blue}\small{List of Quantitative Psychology Programs}}\smallskip\\
+Other Projects & Assessment in Psychology \bigcdot Disability \bigcdot Statistics
 \end{tabular}
 \end{rSection}
 %\pagebreak
@@ -428,15 +229,15 @@ Statistics & Bayesian Methods \bigcdot Behavioral Genetics/Biometrical Modeling 
 %----------------------------------------------------------------------------------------
 %	Memberships
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Memberships}}
-\begin{tabular}{ l l }
-%American Educational Research Association (AERA)%$\cdot$ {\small Div D: Measurement and Research Methodology} &  
-%$\cdot$ {\small SIG 68: Motivation; SIG 91: Giftedness}& Psychometric Society\\
+\begin{minipage}{\linewidth}
+\begin{rSection}{\textrm{Memberships}}\vspace{1.5mm}
+\begin{tabular}{ l l }%American Educational Research Association (AERA)%$\cdot$ {\small Div D: Measurement and Research Methodology} &  $\cdot$ {\small SIG 68: Motivation; SIG 91: Giftedness}& Psychometric Society\\
 \begin{tabular}{@{}l@{}}American Psychological Association (APA)\\
 $\cdot$ {\small Div 5: Evaluation, Measurement, and Statistics}\\
 $\cdot$ {\small Div 8: Personality and Social Psychology} \end{tabular} & \begin{tabular}{@{}l@{}}Association for Psychological Science (APS) \\
-Association for Research in Personality (ARP)\\ Society for Personality and Social Psychology (SPSP)\\\end{tabular} \end{tabular}
+Association for Research in Personality (ARP)\\ Society for Personality and Social Psychology (SPSP)\\\end{tabular}\end{tabular}
 \end{rSection}
+\end{minipage}
 
 %----------------------------------------------------------------------------------------
 %	References

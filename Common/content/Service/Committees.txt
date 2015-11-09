@@ -1,0 +1,11 @@
+%----------------------------------------------------------------------------------------
+%	Committees
+%----------------------------------------------------------------------------------------
+{\large \textbf{Undergraduate Honors Theses Committees}}\\
+Sloane Sparks (Apr 2014), \textit{Gender Differences in Emotional Intelligence: Positive Emotions and Appraisal Theory}.%\\
+%\hspace* {6 mm}Currently, a graduate student at Vanderbilt School of Nursing.
+\smallskip\\%\newpage
+Lydia Fuller (Apr 2014), \textit{GED Student Achievement Trajectories and Predictors: Using the Latent Class Growth\\
+\hspace* {6 mm}Model to Understand Heterogeneous Learning Patterns}.%\\
+%\hspace* {6 mm}Currently, a consultant at Bain \& Company, with deferred admission to Yale Law School.
+

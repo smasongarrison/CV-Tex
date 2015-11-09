@@ -1,0 +1,6 @@
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\textrm{Publications}}%:
+\begin{etaremune}\item Jackson, J. J., Connolly, J. J., \meb, Leveille, M. M., \& Connolly, S. L. (2015). Your friends know how long you will live: A 75-year study of peer-rated personality traits. \textit{Psychological Science, 26}(3),  335-340.\\ \href{http://pss.sagepub.com/content/early/2015/01/12/0956797614561800.full}{\color{blue}{doi:10.1177/0956797614561800}}
+\end{etaremune}\end{rSection}%\vspace{-4mm}

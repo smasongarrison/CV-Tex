@@ -1,0 +1,25 @@
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\textrm{Education}}
+{\bf Vanderbilt University, Peabody College}\\
+Ph.D Program in Psychological Sciences --- Quantitative Methods\hfill  {\em $\approx$ 2018} \\
+\hspace*{\pindent}\textit{Certificate: Experimental Education (in progress)}\\
+\hspace*{\pindent}Advisor: Joseph L. Rodgers%\begin{comment}
+\smallskip\\
+\textit{M.S. in Psychological Sciences} \hfill  {\em $\approx$ 2016} \\
+\hspace*{\pindent}Masters Thesis: Extensions of discordant kinship models.\\
+\hspace*{\pindent}Thesis Committee: Joseph L. Rodgers \& Kristopher J. Preacher%\end{comment}
+\medskip\\
+\textbf{University of British Columbia}\hfill \textit{Fall 2015}\\ 
+Visiting International Researcher \& Quinn Exchange Fellow\\
+\hspace*{\pindent}Department of Psychology\\
+\hspace*{\pindent}Sponsor: Jeremy C. Biesanz\medskip\\
+\textbf{University of Michigan, Ann Arbor}\hfill Summer 2014\\ 
+Summer Scholar at the Interuniversity Consortium for Political and Social Research\medskip\\
+{\bf Washington University in St. Louis}\\
+{\em A.B} in Economics \& Psychology, \textit{magna cum laude} \hfill  {May 2013} \\
+\hspace*{\pindent}Honors Thesis: Gender differences in a multilevel model of marital satisfaction after 20 years.\\
+\hspace*{\pindent}Thesis Advisor: Michael J. Strube%\medskip\\
+\end{rSection}

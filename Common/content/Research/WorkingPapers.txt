@@ -1,0 +1,13 @@
+%----------------------------------------------------------------------------------------
+%	Working Papers
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\textrm{Working Papers}}
+\begin{etaremune}
+\item Rodgers, J. L., Beasley, W. H., Bard, D. E., Meredith, K. M., Hunter, M., Johnson, A. B., Buster, M., Li, C., May, K. O., \meb, Miller, W. M., van den Oord, E., \& Rowe, D. C. (Revise-Resubmit). The NLSY Kinship Links: Using the NLSY79 and NLSY--Children Data to Conduct Genetically--Informed and Family--Oriented Research. \textit{Behavior Genetics}.
+\item\meb, Connolly, J. J., Leveille, M., Kelly, E. L., \& Jackson, J. J. (in prep). As time goes by: Personality predicts the timing of divorce over 45 years. %Target: \textit{JPSP}
+\item\meb \& Rodgers, J. L. (in prep). Intelligence and Age at First Intercourse: Cause or Confound?%Target: \textit{Intelligence}
+\item Schultz, L., Connolly, J. J., \meb, Jackson, J. J. (in prep). Vocational Interests Across 20 Years of Adulthood: Stability, Change, and the Role of Work Experiences. %Target: \textit{Applied Psychology}
+\item Stephenson, E., \meb, Lam, M., Biesanz, J., \& DeLongis, A. (in prep). Mediation in Multivariate Dyadic Survival Analysis: Findings from the Alameda Study. %Target: \textit{Science}
+\item Zhu, J. Y., \meb, Hunter, M., Rodgers, J. L., Lahey, B. B.,  \& Zald, D. H.(in prep). Shaping Perseverance: Evidence of Shared Environmental Effects on Grit and a Task-based Measure of Persistence.%Target: \textit{Psych Science}
+\end{etaremune}
+\end{rSection}

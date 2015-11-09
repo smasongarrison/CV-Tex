@@ -1,0 +1,11 @@
+%----------------------------------------------------------------------------------------
+%	Other Articles
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\textrm{Popular Press Publications}} \begin{etaremune}
+\item\textbf{Garrison, S. M.} (in press). How jealous are you? \textit{LoveLogica}.
+\item\textbf{Garrison, S. M.} (in press). The Kinsey Scale. \textit{LoveLogica}.%\pagebreak
+\item\textbf{Garrison, S. M.} (in press). How masculine AND feminine are you?: Gender roles and personality. \textit{LoveLogica}.
+\item\textbf{Garrison, S. M.} (in press). %Are you ready for romance?: The romantic personality and relationship readiness. \textit{LoveLogica}.
+\item\textbf{Garrison, S. M.} (in press). Attachment style and relationships. \textit{LoveLogica}.
+\item\meb(in press). The science behind birds of a feather: Assortative mating on personality. \textit{LoveLogica}.
+\end{etaremune}\end{rSection}
