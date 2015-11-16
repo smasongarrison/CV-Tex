@@ -5,7 +5,7 @@
 \vspace*{2pt}
 \begin{minipage}{\linewidth}{\large {\bf Instructor}\\}
 Introduction to Applied Statistics. Vanderbilt Summer Academy \hfill{\textit{Summer 2016}}\vspace{2pt}
-\begin{comment}\begin{quote}\small Course Description: Media stories about ``the latest scientific findings'' can range from the plausible to the silly. This class will help you learn to separate truth from  fiction by introducing you to the basic statistical methods and tools used in psychological  research. You will learn to use R,  a free and powerful statistical software package,  to conduct and interpret basic scientific statistical tests. You will begin to recognize the difference between proper and improper use of data, especially the distinction between correlation and causation (\textit{e.g.}, why margarine consumption does not actually lead to more divorces in the state of Maine). For the final project, you will formulate and answer your own scientific question using these new tools and real psychology data.
+\begin{comment}\begin{quote}\small Course Description: Media stories about ``the latest scientific findings'' can range from the plausible to the silly. This class will help you learn to separate truth from  fiction by introducing you to the basic statistical methods and tools used in psychological  research. You will learn to use \R, a free and powerful statistical software package, to conduct and interpret basic scientific statistical tests. You will begin to recognize the difference between proper and improper use of data, especially the distinction between correlation and causation (\textit{e.g.}, why margarine consumption does not actually lead to more divorces in the state of Maine). For the final project, you will formulate and answer your own scientific question using these new tools and real psychology data.
 \end{quote}\end{comment}
 \end{minipage}
 \smallskip\\
@@ -14,7 +14,7 @@ Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill 
 \hspace* {6 mm}Lecture Topics: Excel Tutorials, Graphical Data Analysis, Hypothesis Testing,\\
 \hspace* {6 mm}Probability Distributions, Scale Development, Statistical Literacy, Z-Scores\end{minipage}\medskip\\
 Introduction to Statistical Analysis. Prof. James H. Steiger, Vanderbilt\hfill  {Fall 2013}\\
-\hspace* {6 mm}Lecture Topics: Power and Effect Size, R Tutorials\medskip\\%\pagebreak
+\hspace* {6 mm}Lecture Topics: Power and Effect Size, \R Tutorials\medskip\\
 \begin{minipage}{\linewidth}{\large {\bf Teaching Assistant}}\\
 Introduction to Statistical Analysis. Prof. Joseph L. Rodgers, Vanderbilt\hfill  {Spring 2014}\smallskip\\
 Introduction to Statistical Analysis. Prof. James H. Steiger, Vanderbilt\hfill  {Fall 2013}\smallskip\\

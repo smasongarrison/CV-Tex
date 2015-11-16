@@ -5,7 +5,7 @@
 \begin{rSection}{\textrm{Education}}
 {\bf Vanderbilt University, Peabody College}\\
 Ph.D Program in Psychological Sciences --- Quantitative Methods\hfill  {\em $\approx$ 2018} \\
-\hspace*{\pindent}\textit{Certificate: Experimental Education (in progress)}\\
+\hspace*{\pindent}\textit{Certificates in College Teaching; Experimental Education (in progress)}\\
 \hspace*{\pindent}Advisor: Joseph L. Rodgers%\begin{comment}
 \smallskip\\
 \textit{M.S. in Psychological Sciences} \hfill  {\em $\approx$ 2016} \\
