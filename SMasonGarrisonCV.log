@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.1.27)  11 DEC 2015 16:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.1.27)  20 DEC 2015 08:11
 entering extended mode
 **SMasonGarrisonCV.tex
 ("C:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -386,9 +386,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 ("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Administration
 .tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Publi
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Publi
 cations.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Softw
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Softw
 are.tex"
 Overfull \hbox (12.65178pt too wide) in paragraph at lines 5--5
 \OT1/cmss/m/n/10.95 and kin-ship in-for-ma-tion for re-search with the NLSY \OT
@@ -407,10 +407,10 @@ Overfull \vbox (7.60416pt too high) has occurred while \output is active []
 [1
 
 ])
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Worki
-ng/Review.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Prese
-ntations/Conference.tex"
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Worki
+ng_Review.tex")
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Prese
+ntations_Conference.tex"
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 11.
@@ -420,41 +420,47 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [2])
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Prese
-ntations/Departmental.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience/Tea
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Prese
+ntations_Departmental.tex")
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience_Tea
 ching.tex"
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [3])
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience/Aca
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience_Aca
 demic.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience/Con
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience_Con
 sulting.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience/Fie
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Experience_Fie
 ldWork.tex")
 Underfull \hbox (badness 10000) in paragraph at lines 4--99
 
  []
 
 
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Worki
-ng/Full.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Worki
-ng/Partial.tex"
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Worki
+ng_Full.tex")
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Worki
+ng_Partial.tex"
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4])
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research/Worki
-ng/Analyses.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Service/Servic
-e.tex")
-("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Service/Commit
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Research_Worki
+ng_Analyses.tex")
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Service.tex")
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Service_Commit
 tees.tex")
-Overfull \hbox (14.5491pt too wide) in paragraph at lines 136--156
-[] 
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Service_Outrea
+ch.tex")
+Overfull \hbox (14.5491pt too wide) in paragraph at lines 1--137
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--137
+
  []
 
 
@@ -462,8 +468,10 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [5]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 254--263
-$[]$ 
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Training_Cours
+ework.tex")
+Overfull \hbox (30.0pt too wide) in paragraph at lines 161--170
+[]$[]$ 
  []
 
 
@@ -471,30 +479,32 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [6]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 268--287
-[]$[]$ 
+("C:\Dropbox\Work\Professional Development\CV Tex\Common/content/Training_Skill
+s.tex")
+Overfull \hbox (30.0pt too wide) in paragraph at lines 184--203
+$[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  ("C:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 6997 strings out of 493922
- 108028 string characters out of 3147293
- 210334 words of memory out of 3000000
- 10153 multiletter control sequences out of 15000+200000
+ 6998 strings out of 493922
+ 108228 string characters out of 3147293
+ 208334 words of memory out of 3000000
+ 10155 multiletter control sequences out of 15000+200000
  12960 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,15n,37p,924b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SMasonGarrisonCV.dvi (7 pages, 40288 bytes).
+Output written on SMasonGarrisonCV.dvi (7 pages, 40312 bytes).
