@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.1.27)  24 DEC 2015 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.1.27)  7 JAN 2016 13:17
 entering extended mode
 **SMasonGarrisonCV.tex
 ("C:\Dropbox\Work\Professional Development\CV Tex\SMasonGarrisonCV.tex"
@@ -401,7 +401,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 11.
 
 
-Overfull \vbox (7.60416pt too high) has occurred while \output is active []
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [1
@@ -507,4 +507,4 @@ Here is how much of TeX's memory you used:
  841 hyphenation exceptions out of 8191
  37i,15n,37p,924b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SMasonGarrisonCV.dvi (7 pages, 40396 bytes).
+Output written on SMasonGarrisonCV.dvi (7 pages, 40548 bytes).
