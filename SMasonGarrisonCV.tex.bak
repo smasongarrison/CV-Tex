@@ -60,19 +60,15 @@
 %	Working Papers
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Working Papers}}
-{\large \textbf{Manuscripts Under Review}}\begin{etaremune}
+{\large \textbf{Full Manuscripts}}\begin{etaremune}
 %
 \input{Common/content/Research_Working_Review.tex}
-
-%
-\hspace{-8mm}{\large \textbf{Full Manuscripts}}
-\input{Common/content/Research_Working_Full.tex}
 %
 \hspace{-8mm}{\large \textbf{Partial Manuscripts}}
 \input{Common/content/Research_Working_Partial.tex}
 %
-\hspace{-8mm}{\large \textbf{Select Data Analyses}}
-\input{Common/content/Research_Working_Analyses.tex}
+%\hspace{-8mm}{\large \textbf{Select Data Analyses}}
+%\input{Common/content/Research_Working_Analyses.tex}
 \end{etaremune}\end{rSection}
 %
 %----------------------------------------------------------------------------------------
@@ -83,7 +79,8 @@
 {\large {\bf Conference}}\begin{etaremune}
 \input{Common/content/Research_Presentations_Conference.tex}
 %
-\pagebreak\hspace{-7mm}{\large {\bf Departmental}}
+%\pagebreak
+\hspace{-7mm}{\large {\bf Departmental}}
 \input{Common/content/Research_Presentations_Departmental.tex}
 \end{etaremune}\end{rSection}
 %
@@ -98,13 +95,13 @@
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Experience}}
 {\large \textbf{Academic}}\\
-\input{Common/content/Experience_Academic.tex}
+\input{Common/content/Experience_Academic.tex}\pagebreak
 %
 %\begin{minipage}[]{\textwidth}
 {\large \textbf{Consulting}}*\\\vspace{1mm}
 \input{Common/content/Experience_Consulting.tex}
 %\end{minipage}
-%
+%%
 \input{Common/content/Experience_FieldWork.tex}
 %
 }}\end{rSection}%\pagebreak
@@ -214,10 +211,11 @@ Washington University in St. Louis\end{tabular}
 %%%%%%%%%%% PENDING
 \begin{comment}
 
-Letter of Intent for Junior Investigators in Genetics and Human Agency Grant -- applied 3/7/15 as CO-PI with Joyce; invite for full proposal expected by 4/1/16
-
+\item\meb \& \joe (submitted, September 2016). Advances in discordant sibling designs from the NLSY, illustrated with SES and health. Talk to be given at Developmental Methods $3^{rd}$ Annual Conference in Whitefish, MT.
 
 %%%%%%%%%%%%%%%%AWARDED SECTION
+SMEP workshop travel award for Developmental Methods; applied 5/19/16; accepted 5/19/16
+
 PTY Course Proposal -- APPLIED 9/24/15 (expected reply within 1 to 4 weeks)
 Invited to meet 9/30/15 -- meeting -- implicit reject, should have heard by end of oct                                                       ober. Conclusion: need to have class that doesn't require computers. ACCEPTED 10/28
 
@@ -233,6 +231,10 @@ Green College -- Applied 7/14/15 -- accepted 8/7/15
 NSF -- 11/14: WON!! -- accepted March/15
 
 %%%%%%%%%%%%%%%%REJECTION SECTION
+
+Letter of Intent for Junior Investigators in Genetics and Human Agency Grant -- applied 3/7/15 as CO-PI with Joyce; invite for full proposal expected by 4/1/16
+assumed rejection
+
 SPSP student poster award -- 10/7/15 - rejected 12/2/15
 
 P.E.O. Scholar Award -- APPLIED 8/13/2015 -- not qualified

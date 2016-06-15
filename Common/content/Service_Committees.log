@@ -1,0 +1,514 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.15)  29 MAY 2016 12:04
+entering extended mode
+**./Service_Committees.tex
+(Service_Committees.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+! Undefined control sequence.
+l.4 {\large
+            \textbf{Undergraduate Honors Theses Committees}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...tbf{Undergraduate Honors Theses Committees}
+                                                  }\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment etaremune undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{etaremune}
+                     \item Tom Qian (Apr 2016), \textit{Appraisal Structure ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (95.81903pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/bx/n/10 Undergraduate
+ []
+
+
+Overfull \hbox (24.97209pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 Hon-
+ []
+
+
+Overfull \hbox (15.02214pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 ors
+ []
+
+
+Overfull \hbox (23.49294pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 The-
+ []
+
+
+Overfull \hbox (14.34296pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 ses
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 Com-
+ []
+
+
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 mit-
+ []
+
+
+Overfull \hbox (19.5499pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/n/10 tees 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{etaremune}\item T
+                            om Qian (Apr 2016), \textit{Appraisal Structure ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (16.12212pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 Ap-
+ []
+
+
+Overfull \hbox (28.74982pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 praisal
+ []
+
+
+Overfull \hbox (26.70535pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 Struc-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 ture
+ []
+
+
+Overfull \hbox (19.69987pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 Uni-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 ver-
+ []
+
+
+Overfull \hbox (15.33324pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 sal-
+ []
+
+
+Overfull \hbox (11.24435pt too wide) in paragraph at lines 5--8
+\OT1/cmr/m/it/10 ity 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item S
+           loane Sparks (Apr 2014), \textit{Gender Differences in Emotional ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (21.53596pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Gen-
+ []
+
+
+Overfull \hbox (13.92767pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 der
+ []
+
+
+Overfull \hbox (17.26099pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Dif-
+ []
+
+
+Overfull \hbox (15.46098pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 fer-
+ []
+
+
+Overfull \hbox (22.99982pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 ences
+ []
+
+
+Overfull \hbox (8.68884pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 in
+ []
+
+
+Overfull \hbox (23.64986pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Emo-
+ []
+
+
+Overfull \hbox (24.78874pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 tional
+ []
+
+
+Overfull \hbox (13.05547pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 In-
+ []
+
+
+Overfull \hbox (14.05544pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 tel-
+ []
+
+
+Overfull \hbox (9.19994pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 li-
+ []
+
+
+Overfull \hbox (26.57756pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 gence:
+ []
+
+
+Overfull \hbox (19.56099pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Pos-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (15.58876pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 tive
+ []
+
+
+Overfull \hbox (23.64986pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Emo-
+ []
+
+
+Overfull \hbox (21.21098pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 tions
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (16.12212pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 Ap-
+ []
+
+
+Overfull \hbox (28.74982pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 praisal
+ []
+
+
+Overfull \hbox (20.44429pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 The-
+ []
+
+
+Overfull \hbox (14.18323pt too wide) in paragraph at lines 8--11
+\OT1/cmr/m/it/10 ory 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \item L
+            ydia Fuller (Apr 2014), \textit{GED Student Achievement Trajecto...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (22.0693pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 GED
+ []
+
+
+Overfull \hbox (17.88876pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Stu-
+ []
+
+
+Overfull \hbox (18.65543pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 dent
+ []
+
+
+Overfull \hbox (37.07748pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Achieve-
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ment
+ []
+
+
+Overfull \hbox (18.78317pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Tra-
+ []
+
+
+Overfull \hbox (15.33319pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 jec-
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 to-
+ []
+
+
+Overfull \hbox (15.9721pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ries
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 and
+ []
+
+
+Overfull \hbox (18.6665pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Pre-
+ []
+
+
+Overfull \hbox (16.35544pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 dic-
+ []
+
+
+Overfull \hbox (19.80542pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 tors:
+ []
+
+
+Overfull \hbox (15.0999pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Us-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (13.03323pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 the
+ []
+
+
+Overfull \hbox (14.44987pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 La-
+ []
+
+
+Overfull \hbox (16.86653pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 tent
+ []
+
+
+Overfull \hbox (22.99986pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Class
+ []
+
+
+Overfull \hbox (31.63034pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Growth
+ []
+
+
+Overfull \hbox (25.83316pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Model
+ []
+
+
+Overfull \hbox (8.43327pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 to
+ []
+
+
+Overfull \hbox (16.63322pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Un-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 der-
+ []
+
+
+Overfull \hbox (23.25542pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 stand
+ []
+
+
+Overfull \hbox (18.93318pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Het-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ero-
+ []
+
+
+Overfull \hbox (12.77766pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ge-
+ []
+
+
+Overfull \hbox (24.27762pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 neous
+ []
+
+
+Overfull \hbox (28.37753pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Learn-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (18.79431pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 Pat-
+ []
+
+
+Overfull \hbox (21.84984pt too wide) in paragraph at lines 11--13
+\OT1/cmr/m/it/10 terns 
+ []
+
+)
+! Emergency stop.
+<*> ./Service_Committees.tex
+                            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 12 strings out of 493634
+ 197 string characters out of 3143744
+ 54604 words of memory out of 3000000
+ 3495 multiletter control sequences out of 15000+200000
+ 4294 words of font info for 16 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 13i,1n,10p,221b,82s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
