@@ -47,14 +47,14 @@
 \input{Common/content/Research_Publications.tex}
 %
 %----------------------------------------------------------------------------------------
-%	Software
-%----------------------------------------------------------------------------------------
-\input{Common/content/Research_Software.tex}
-%
-%----------------------------------------------------------------------------------------
 %	Funds & Awards
 %----------------------------------------------------------------------------------------
 \input{Common/content/Funds.tex}
+%
+%----------------------------------------------------------------------------------------
+%	Software
+%----------------------------------------------------------------------------------------
+\input{Common/content/Research_Software.tex}
 %
 %----------------------------------------------------------------------------------------
 %	Working Papers
@@ -95,18 +95,16 @@
 %----------------------------------------------------------------------------------------
 \begin{rSection}{\textrm{Experience}}
 {\large \textbf{Academic}}\\
-\input{Common/content/Experience_Academic.tex}\pagebreak
-%
-%\begin{minipage}[]{\textwidth}
-{\large \textbf{Consulting}}*\\\vspace{1mm}
-\input{Common/content/Experience_Consulting.tex}
-%\end{minipage}
+\input{Common/content/Experience_Academic.tex}\medskip
 %%
 \input{Common/content/Experience_FieldWork.tex}
 %
+\begin{minipage}[]{\textwidth}
+{\large \textbf{Consulting}}*\\\vspace{1mm}
+\input{Common/content/Experience_Consulting.tex}
+\end{minipage}
 }}\end{rSection}%\pagebreak
 %
-
 %
 %----------------------------------------------------------------------------------------
 %	Service
@@ -115,7 +113,7 @@
 \begin{rSection}{\textrm{Service}}
 \input{Common/content/Service.tex}
 \end{rSection}
-\pagebreak
+%\pagebreak
 %----------------------------------------------------------------------------------------
 %	Committees
 %----------------------------------------------------------------------------------------
@@ -211,7 +209,9 @@ Washington University in St. Louis\end{tabular}
 %%%%%%%%%%% PENDING
 \begin{comment}
 
-\item\meb \& \joe (submitted, September 2016). Advances in discordant sibling designs from the NLSY, illustrated with SES and health. Talk to be given at Developmental Methods $3^{rd}$ Annual Conference in Whitefish, MT.
+\item\meb \& \joe (Oct 2017). TITLE. Poster submitted to SMEP Annual Conference.
+
+\item\meb \& \joe (Jan 2017). Making Causal Claims without Experiments: Advances in Discordant Sibling Designs with the SES-health Gradient. Talk submitted to SPSP Annual Conference in Whitefish, MT.
 
 %%%%%%%%%%%%%%%%AWARDED SECTION
 SMEP workshop travel award for Developmental Methods; applied 5/19/16; accepted 5/19/16
@@ -239,7 +239,7 @@ SPSP student poster award -- 10/7/15 - rejected 12/2/15
 
 P.E.O. Scholar Award -- APPLIED 8/13/2015 -- not qualified
 
-GOOGLE INTERNSHIP -- APPLIED 12/15; ROUND 1 interview (2/15)-- verdict: Not likely --  (3/15)-- thoughts -- need to improve my elevator talk AND need to improve teach stats without visuals -- Call back for round two (3/15)!; round 3 invite within 4 hours of end of interview 2; not recieved offer due to fit 4/3/15
+GOOGLE INTERNSHIP -- APPLIED 12/15; ROUND 1 interview (2/15)-- verdict: Not likely --  (3/15)-- thoughts -- need to improve my elevator talk AND need to improve teach stats without visuals -- Call back for round two (3/15)!; round 3 invite within 4 hours of end of interview 2; not received offer due to fit 4/3/15
 
 SISPP15 -- APPLIED 1/15; REJECTED (3/15) -- seemed like there were too many applicants and the adcom favored those who would be ineligible for sispp17
 
