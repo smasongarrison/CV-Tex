@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.31)  23 SEP 2016 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.31)  21 OCT 2016 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,7 +400,6 @@ eb/packages/NlsyLinks[][]
  []
 
 ) (./Common/content/Research_Working_Review.tex)
-(./Common/content/Research_Working_Partial.tex)
 (./Common/content/Research_Presentations_Conference.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
@@ -410,12 +409,11 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 22.
 
-
+) (./Common/content/Research_Presentations_Departmental.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[3]) (./Common/content/Research_Presentations_Departmental.tex)
-(./Common/content/Experience_Teaching.tex)
+[3]) (./Common/content/Experience_Teaching.tex)
 (./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
 (./Common/content/Experience_Consulting.tex)
@@ -451,27 +449,27 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 177--197
 $[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./SMasonGarrisonCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7347 strings out of 494194
- 109396 string characters out of 6159429
- 222574 words of memory out of 5000000
+ 7344 strings out of 494194
+ 109284 string characters out of 6159429
+ 220574 words of memory out of 5000000
  10566 multiletter control sequences out of 15000+600000
  12960 words of font info for 44 fonts, out of 8000000 for 9000
  399 hyphenation exceptions out of 8191
- 36i,15n,37p,926b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,37p,926b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2016/texmf-dis
@@ -483,7 +481,7 @@ pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (7 pages, 147779 bytes).
+Output written on SMasonGarrisonCV.pdf (7 pages, 147226 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
