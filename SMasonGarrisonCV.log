@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.31)  21 OCT 2016 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.31)  15 NOV 2016 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,7 +393,7 @@ Overfull \vbox (7.60416pt too high) has occurred while \output is active []
 
 ])
 (./Common/content/Research_Software.tex
-Overfull \hbox (12.65178pt too wide) in paragraph at lines 5--5
+Overfull \hbox (12.65178pt too wide) in paragraph at lines 7--8
 \OT1/cmss/m/n/10.95 and kin-ship in-for-ma-tion for re-search with the NLSY \OT
 1/cmr/m/n/10.95 R \OT1/cmss/m/n/10.95 pack-age [][]https://cran.r-project.org/w
 eb/packages/NlsyLinks[][] 
@@ -409,11 +409,12 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 22.
 
-) (./Common/content/Research_Presentations_Departmental.tex
+
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[3]) (./Common/content/Experience_Teaching.tex)
+[3]) (./Common/content/Research_Presentations_Departmental.tex)
+(./Common/content/Experience_Teaching.tex)
 (./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
 (./Common/content/Experience_Consulting.tex)
@@ -465,11 +466,11 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 Here is how much of TeX's memory you used:
  7344 strings out of 494194
  109284 string characters out of 6159429
- 220574 words of memory out of 5000000
+ 222574 words of memory out of 5000000
  10566 multiletter control sequences out of 15000+600000
  12960 words of font info for 44 fonts, out of 8000000 for 9000
  399 hyphenation exceptions out of 8191
- 36i,15n,37p,926b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,37p,926b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2016/texmf-dis
@@ -481,10 +482,10 @@ pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (7 pages, 147226 bytes).
+Output written on SMasonGarrisonCV.pdf (7 pages, 148593 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
