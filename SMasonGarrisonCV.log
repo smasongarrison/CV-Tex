@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.31)  15 NOV 2016 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.16)  6 DEC 2016 07:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./SMasonGarrisonCV.tex
 (./SMasonGarrisonCV.tex
 LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 42 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2016/texmf-dist/tex/latex/base/size11.clo
@@ -464,12 +464,12 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7344 strings out of 494194
- 109284 string characters out of 6159429
- 222574 words of memory out of 5000000
- 10566 multiletter control sequences out of 15000+600000
+ 7344 strings out of 494891
+ 109284 string characters out of 6179764
+ 220782 words of memory out of 5000000
+ 10516 multiletter control sequences out of 15000+600000
  12960 words of font info for 44 fonts, out of 8000000 for 9000
- 399 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  36i,15n,37p,926b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
@@ -482,7 +482,7 @@ pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (7 pages, 148593 bytes).
+Output written on SMasonGarrisonCV.pdf (7 pages, 148779 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
