@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  5 JUL 2017 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.7)  14 JUL 2017 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./SMasonGarrisonCV.tex
 (./SMasonGarrisonCV.tex
 LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 42 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2016/texmf-dist/tex/latex/base/size11.clo
@@ -112,7 +112,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -120,7 +120,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -457,12 +457,12 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7353 strings out of 494194
- 109395 string characters out of 6159429
- 223954 words of memory out of 5000000
- 10574 multiletter control sequences out of 15000+600000
+ 7353 strings out of 494891
+ 109395 string characters out of 6179765
+ 222162 words of memory out of 5000000
+ 10524 multiletter control sequences out of 15000+600000
  13268 words of font info for 45 fonts, out of 8000000 for 9000
- 399 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  35i,15n,37p,937b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
@@ -476,7 +476,7 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 161837 bytes).
+Output written on SMasonGarrisonCV.pdf (8 pages, 161812 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
