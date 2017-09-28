@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.7)  8 SEP 2017 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.7)  27 SEP 2017 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,33 +379,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
-) (./Common/content/Research_Publications.tex) (./Common/content/Funds.tex
+) (./Common/content/Administration.tex)
+(./Common/content/Funds.tex
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 13.
 
-
+) (./Common/content/Research_Publications.tex
 Overfull \vbox (7.60416pt too high) has occurred while \output is active []
 
 
 [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ])
-(./Common/content/Administration.tex) (./Common/content/Research_Software.tex
-Overfull \hbox (12.65178pt too wide) in paragraph at lines 8--9
+(./Common/content/Research_Software.tex
+Overfull \hbox (12.65178pt too wide) in paragraph at lines 7--9
 \OT1/cmss/m/n/10.95 and kin-ship in-for-ma-tion for re-search with the NLSY \OT
 1/cmr/m/n/10.95 R \OT1/cmss/m/n/10.95 pack-age [][]https://cran.r-project.org/w
 eb/packages/NlsyLinks[][] 
  []
 
 ) (./Common/content/Research_Working_Review.tex)
+(./Common/content/Research_Presentations_Conference.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[2] (./Common/content/Research_Presentations_Conference.tex
+[2]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 23.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 24.
 
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
@@ -419,7 +421,7 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [4]) (./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
 (./Common/content/Experience_Consulting.tex)
-Overfull \hbox (16.42503pt too wide) in paragraph at lines 99--108
+Overfull \hbox (16.42503pt too wide) in paragraph at lines 100--109
 []$ 
  []
 
@@ -429,16 +431,16 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 [5] (./Common/content/Service_Committees.tex)
 (./Common/content/Service_Outreach.tex)
+(./Common/content/Training_Coursework.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[6] (./Common/content/Training_Coursework.tex)
-(./Common/content/Training_Skills.tex)
-Overfull \hbox (30.0pt too wide) in paragraph at lines 179--199
+[6]) (./Common/content/Training_Skills.tex)
+Overfull \hbox (30.0pt too wide) in paragraph at lines 180--200
 $[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
@@ -448,10 +450,10 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./SMasonGarrisonCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -462,7 +464,7 @@ Here is how much of TeX's memory you used:
  10524 multiletter control sequences out of 15000+600000
  13268 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,15n,37p,937b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,937b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2016/texmf-dis
@@ -474,10 +476,10 @@ pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 154244 bytes).
+Output written on SMasonGarrisonCV.pdf (8 pages, 153729 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
