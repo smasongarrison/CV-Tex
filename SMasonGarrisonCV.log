@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.3)  12 APR 2018 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.3)  9 MAY 2018 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,7 +388,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 13.
 
 ) (./Common/content/Research_Publications.tex
-Overfull \vbox (7.60416pt too high) has occurred while \output is active []
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -455,6 +455,10 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 185--213
 $[]$ 
  []
 
+
+LaTeX Warning: Etaremune labels have changed.
+               Rerun to get them right.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
@@ -471,11 +475,11 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 Here is how much of TeX's memory you used:
  7348 strings out of 494878
  109562 string characters out of 6179725
- 218371 words of memory out of 5000000
+ 218334 words of memory out of 5000000
  10533 multiletter control sequences out of 15000+600000
  13268 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,15n,37p,937b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,937b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2017/texmf-dis
@@ -487,7 +491,7 @@ pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 155861 bytes).
+Output written on SMasonGarrisonCV.pdf (8 pages, 156077 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
