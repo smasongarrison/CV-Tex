@@ -35,11 +35,11 @@ Icon
 .Spotlight-V100
 .Trashes
 
-Common/content/Research_Publications.log
-SMasonGarrisonCV.log
+
 *.log
 *.bak
 *.bak
-.Rproj.user/CC6CFD38/sources/prop/EDCC8902
+.Rproj.user/*
 .Rhistory
-CV Tex.Rproj
+*.Rproj
+*.gz
