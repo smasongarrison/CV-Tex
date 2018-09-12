@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.22)  17 AUG 2018 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.22)  10 SEP 2018 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,7 +386,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 13.
 
 ) (./Common/content/Research_Publications.tex
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
+Overfull \vbox (7.60416pt too high) has occurred while \output is active []
 
 
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -402,7 +402,17 @@ Overfull \hbox (12.65178pt too wide) in paragraph at lines 8--9
 eb/packages/NlsyLinks[][] 
  []
 
-) (./Common/content/Research_Working_Review.tex
+)
+! Extra }, or forgotten \endgroup.
+l.63 ...{Papers Under Review and In Preparation}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+(./Common/content/Research_Working_Review.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
@@ -413,14 +423,14 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [3]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 32.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 34.
 
 ) (./Common/content/Research_Presentations_Departmental.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4])
-Underfull \hbox (badness 10000) in paragraph at lines 15--89
+Underfull \hbox (badness 10000) in paragraph at lines 16--89
 
  []
 
@@ -462,6 +472,10 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [8]
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
+
+
+[9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
  (./SMasonGarrisonCV.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
@@ -470,28 +484,27 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7360 strings out of 494544
- 109640 string characters out of 6176842
- 227555 words of memory out of 5000000
- 10865 multiletter control sequences out of 15000+600000
- 13268 words of font info for 45 fonts, out of 8000000 for 9000
+ 7359 strings out of 494544
+ 109627 string characters out of 6176842
+ 228555 words of memory out of 5000000
+ 10864 multiletter control sequences out of 15000+600000
+ 12956 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,15n,37p,935b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,935b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 156198 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
+10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on SMasonGarrisonCV.pdf (9 pages, 146571 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 10 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
