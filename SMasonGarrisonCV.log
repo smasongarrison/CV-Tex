@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.22)  10 SEP 2018 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  7 NOV 2018 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,16 +24,16 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (./Common/style/MasonCV.sty
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/06/05 3.22 The Babel package
+Package: babel 2018/09/02 3.23 The Babel package
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
 )
 (c:/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/06/05 3.22 Babel common definitions
+File: babel.def 2018/09/02 3.23 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
@@ -48,7 +48,7 @@ File: babel.def 2018/06/05 3.22 Babel common definitions
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
 
 (c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count90
 )
 (c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
@@ -109,7 +109,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -117,7 +117,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -255,7 +255,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (c:/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
+Package: parskip 2018-08-24 v2.0a non-zero parskip adjustments
 )
 (c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
@@ -402,17 +402,7 @@ Overfull \hbox (12.65178pt too wide) in paragraph at lines 8--9
 eb/packages/NlsyLinks[][] 
  []
 
-)
-! Extra }, or forgotten \endgroup.
-l.63 ...{Papers Under Review and In Preparation}}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-(./Common/content/Research_Working_Review.tex
+) (./Common/content/Research_Working_Review.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
@@ -430,23 +420,22 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4])
-Underfull \hbox (badness 10000) in paragraph at lines 16--89
+Underfull \hbox (badness 10000) in paragraph at lines 18--89
 
  []
 
 (./Common/content/Experience_Teaching.tex)
-(./Common/content/Experience_Academic.tex)
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
+
+
+[5] (./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
 (./Common/content/Experience_Consulting.tex)
 Overfull \hbox (16.42503pt too wide) in paragraph at lines 103--112
 []$ 
  []
 
-
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[5] (./Common/content/Service.tex)
+(./Common/content/Service.tex)
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
@@ -484,13 +473,13 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7359 strings out of 494544
- 109627 string characters out of 6176842
- 228555 words of memory out of 5000000
- 10864 multiletter control sequences out of 15000+600000
+ 7375 strings out of 494516
+ 109899 string characters out of 6175428
+ 229304 words of memory out of 5000000
+ 10885 multiletter control sequences out of 15000+600000
  12956 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,15n,37p,935b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,934b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dis
@@ -501,7 +490,7 @@ c/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
 c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (9 pages, 146571 bytes).
+Output written on SMasonGarrisonCV.pdf (9 pages, 146948 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
