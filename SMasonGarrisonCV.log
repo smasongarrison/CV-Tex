@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  7 NOV 2018 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.18)  28 NOV 2018 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,18 +369,18 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 22--22
 [] 
  []
 
-(./Common/content/Education.tex
+(./Common/content/Positions.tex
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 6.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 5.
 
-) (./Common/content/Interests.tex
+) (./Common/content/Education.tex) (./Common/content/Interests.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
-) (./Common/content/Administration.tex)
-(./Common/content/Funds.tex
+)
+(./Common/content/Administration.tex) (./Common/content/Funds.tex
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 13.
@@ -420,7 +420,7 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4])
-Underfull \hbox (badness 10000) in paragraph at lines 18--89
+Underfull \hbox (badness 10000) in paragraph at lines 19--97
 
  []
 
@@ -431,7 +431,7 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [5] (./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
 (./Common/content/Experience_Consulting.tex)
-Overfull \hbox (16.42503pt too wide) in paragraph at lines 103--112
+Overfull \hbox (16.42503pt too wide) in paragraph at lines 111--120
 []$ 
  []
 
@@ -446,16 +446,16 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [7]) (./Common/content/Training_Skills.tex)
-Overfull \hbox (27.16406pt too wide) in paragraph at lines 188--211
+Overfull \hbox (27.16406pt too wide) in paragraph at lines 196--219
 [][] 
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 185--213
+Overfull \hbox (30.0pt too wide) in paragraph at lines 193--221
 $[]$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
@@ -465,21 +465,21 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./SMasonGarrisonCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7375 strings out of 494516
- 109899 string characters out of 6175428
+ 7378 strings out of 494516
+ 109966 string characters out of 6175428
  229304 words of memory out of 5000000
  10885 multiletter control sequences out of 15000+600000
  12956 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,15n,37p,934b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,934b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dis
@@ -490,7 +490,7 @@ c/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
 c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (9 pages, 146948 bytes).
+Output written on SMasonGarrisonCV.pdf (9 pages, 146956 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
