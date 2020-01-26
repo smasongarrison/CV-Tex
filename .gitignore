@@ -43,3 +43,5 @@ Icon
 .Rhistory
 *.Rproj
 *.gz
+.Rproj.user
+*.gz
