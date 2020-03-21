@@ -45,3 +45,8 @@ Icon
 *.gz
 .Rproj.user
 *.gz
+*.gz
+*.log
+*.aux
+*.log
+*.out
