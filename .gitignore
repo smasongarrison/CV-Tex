@@ -50,3 +50,5 @@ Icon
 *.aux
 *.log
 *.out
+*.log
+*.gz
