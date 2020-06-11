@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  7 JUN 2020 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  11 JUN 2020 14:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -422,14 +422,14 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 [4]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 55.
 
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
@@ -522,7 +522,7 @@ Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 Here is how much of TeX's memory you used:
  7443 strings out of 494544
  110223 string characters out of 6176843
- 229438 words of memory out of 5000000
+ 228438 words of memory out of 5000000
  10946 multiletter control sequences out of 15000+600000
  13062 words of font info for 45 fonts, out of 8000000 for 9000
  37 hyphenation exceptions out of 8191
@@ -536,7 +536,7 @@ c/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 137771 bytes).
+Output written on SMasonGarrisonCV.pdf (8 pages, 137343 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
