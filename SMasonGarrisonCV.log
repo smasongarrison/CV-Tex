@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  11 JUN 2020 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  17 JUN 2020 08:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -410,39 +410,39 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
-[2]) (./Common/content/Research_Working_Review.tex)
-(./Common/content/Research_Presentations.tex
+[2]) (./Common/content/Research_Presentations.tex
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [3]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 61.
+
+
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [4]
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 55.
-
-
-Overfull \vbox (7.48248pt too high) has occurred while \output is active []
-
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-) (./Common/content/Experience_Academic.tex)
+)
+Overfull \vbox (7.48248pt too high) has occurred while \output is active []
+
+
+[5] (./Common/content/Research_Working_Review.tex)
+(./Common/content/Experience_Academic.tex)
 (./Common/content/Experience_FieldWork.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 124--134
+Underfull \hbox (badness 10000) in paragraph at lines 127--137
 
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 \end{rSection}
+l.137 \end{rSection}
                     %\pagebreak
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -453,7 +453,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 \end{rSection}
+l.137 \end{rSection}
                     %\pagebreak
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -497,36 +497,36 @@ Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [7] (./Common/content/Training_Skills.tex)
-Overfull \hbox (27.16406pt too wide) in paragraph at lines 214--235
+Overfull \hbox (27.16406pt too wide) in paragraph at lines 217--238
 [][] 
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 200--237
+Overfull \hbox (30.0pt too wide) in paragraph at lines 203--240
 []$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 
 Overfull \vbox (7.48248pt too high) has occurred while \output is active []
 
 
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./SMasonGarrisonCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `SMasonGarrisonCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  7443 strings out of 494544
  110223 string characters out of 6176843
- 228438 words of memory out of 5000000
+ 228437 words of memory out of 5000000
  10946 multiletter control sequences out of 15000+600000
  13062 words of font info for 45 fonts, out of 8000000 for 9000
  37 hyphenation exceptions out of 8191
- 35i,15n,37p,854b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,37p,854b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dis
@@ -536,7 +536,7 @@ c/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SMasonGarrisonCV.pdf (8 pages, 137343 bytes).
+Output written on SMasonGarrisonCV.pdf (8 pages, 137919 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
