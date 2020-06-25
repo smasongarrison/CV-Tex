@@ -53,3 +53,6 @@ Icon
 *.log
 *.gz
 *.log
+*.synctex(busy)
+*.log
+*.log
