@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -36,24 +37,13 @@ Icon
 .Trashes
 
 
-*.log
-*.bak
-*.bak
-.Rproj.user/*
-.Rhistory
-*.Rproj
-*.gz
-.Rproj.user
-*.gz
-*.gz
-*.log
 *.aux
+*.bak
+*.gz
 *.log
 *.out
-*.log
-*.gz
-*.log
+*.Rproj
 *.synctex(busy)
-*.log
-*.log
+.Rhistory
+.Rproj.user/*
 SMasonGarrisonCV.log
