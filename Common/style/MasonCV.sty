@@ -28,19 +28,38 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 
 %% New Commands
+%%% Spacing %%% Formatting
 \newcommand{\bigcdot}{\hspace* {-.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
-\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
+\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}}
+\newcommand{\ssstar}{\textsuperscript{*}}
+\newcommand{\ssdag}{\textsuperscript{$\dagger$}}
+\newcommand{\et}{\textit{et al}.\xspace}
+\newcommand{\eg}{\textit{e.g},\xspace}
 \newcommand{\R}{\textup{\textrm{R}}\xspace}
+
+\newcommand{\noteA}{\hspace{-3.95pt}\ssstar\hspace* {2 pt}}
+\newcommand{\noteAalt}{\ssstar\hspace* {-3.95 pt}}
+\newcommand{\noteAns}{\ssstar\hspace* {2 pt}}
+\newcommand{\noteB}{\hspace{-3.95pt}\ssdag\hspace* {2 pt}}
+\newcommand{\noteBalt}{\ssdag\hspace* {-3.95 pt}}
+\newcommand{\noteBns}{\ssdag\hspace* {2 pt}}
+
+
+%% Authors
 \newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
 \newcommand{\Joe}{Rodgers, J. L.\xspace}
 \newcommand{\joe}{\Joe}
 \newcommand{\jjj}{Jackson, J. J.\xspace}
-\newcommand{\et}{\textit{et al}.\xspace}
-\newcommand{\eg}{\textit{e.g},\xspace}
-\newcommand{\nota}{\hspace{-3.95pt}\textsuperscript{*}\hspace* {2 pt}}
-\newcommand{\notans}{\textsuperscript{*}\hspace* {2 pt}}
-\newcommand{\notb}{\hspace{-3.95pt}\textsuperscript{$\dagger$}\hspace* {2 pt}}
-\newcommand{\notbns}{\textsuperscript{$\dagger$}\hspace* {2 pt}}
+
+%grad collabs
+\newcommand{\emsims}{Sims, E.\noteBalt\xspace}
+\newcommand{\yrh}{Hwang, Yoo Ri\noteBalt\xspace}
+% Undergrad Collabs
+\newcommand{\jt}{Trattner, J.\noteAalt\xspace}
+\newcommand{\kl}{Later, K.\noteAalt\xspace}
+\newcommand{\sherrym}{Mao, T. S.\noteAalt\xspace}
+
+%%% URL
 \newcommand{\bluelink}[2]{\href{#1}{\small\color{blue}{#2}}}
 \newcommand{\bluelinkreg}[2]{\href{#1}{\color{blue}{#2}}}
 
