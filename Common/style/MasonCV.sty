@@ -1,24 +1,25 @@
 %----------------------------------------------------------------------------------------
 % 		Packages 
 %----------------------------------------------------------------------------------------
-%%%%%% Formating %%%%%%
+%%%%%% Formatting %%%%%%
 %% Font\Language
-\usepackage [english]{babel}
-\usepackage [autostyle, english = american]{csquotes}
-\usepackage{verbatim}
+\usepackage [english]{babel} % English language support
+\usepackage [autostyle, english = american]{csquotes} % Quotes formatting
+\usepackage{verbatim} % Verbatim environment for displaying code
+
 %% Style
 \pagestyle{empty} % Suppress page numbers
-\usepackage{color}
-\usepackage{hyperref}
-\hypersetup{colorlinks=false,pdfborder={0 0 0},}
-\usepackage{etaremune}
-\usepackage{setspace}
-\usepackage{enumitem}
+\usepackage{color} % Color support
+\usepackage{hyperref} % Hyperlinks
+\hypersetup{colorlinks=false,pdfborder={0 0 0},} % Hyperlink formatting
+\usepackage{etaremune} % Reverse numbering in lists
+\usepackage{setspace} % Line spacing
+\usepackage{enumitem} % Customizing lists
 
 %%%%%% Layout %%%%%%
-\setlength{\headheight}{0pt}
+\setlength{\headheight}{0pt} % Adjusting header height
 \usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.55in]{geometry} % Document margins
-\usepackage{xspace}
+\usepackage{xspace} % Smart spacing
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 
@@ -28,93 +29,94 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 
 %% New Commands
-%%% Spacing %%% Formatting
-\newcommand{\bigcdot}{\hspace* {-.8 mm}{\Large$\cdot$}\hspace* {.8 mm}} 
-\newcommand{\abigcdot}{\hspace* {.8 mm}{\Large$\cdot$}\hspace* {.8 mm}}
-\newcommand{\ssstar}{\textsuperscript{*}}
-\newcommand{\ssdag}{\textsuperscript{$\dagger$}}
-\newcommand{\et}{\textit{et al}.\xspace}
-\newcommand{\eg}{\textit{e.g},\xspace}
-\newcommand{\R}{\textup{\textrm{R}}\xspace}
+%%% Spacing and Formatting
+\newcommand{\bigcdot}{\hspace*{-.8mm}{\Large$\cdot$}\hspace*{.8mm}} % Big centered dot
+\newcommand{\abigcdot}{\hspace*{.8mm}{\Large$\cdot$}\hspace*{.8mm}} % Big aligned dot
+\newcommand{\ssstar}{\textsuperscript{*}} % Superscript star
+\newcommand{\ssdag}{\textsuperscript{$\dagger$}} % Superscript dagger
+\newcommand{\et}{\textit{et al.}\xspace} % et al.
+\newcommand{\eg}{\textit{e.g.}\xspace} % e.g.
+\newcommand{\R}{\textup{\textrm{R}}\xspace} % R (programming language)
 
-\newcommand{\noteA}{\hspace{-3.95pt}\ssstar\hspace* {2 pt}}
-\newcommand{\noteAalt}{\ssstar\hspace* {-3.95 pt}}
-\newcommand{\noteAns}{\ssstar\hspace* {2 pt}}
-\newcommand{\noteB}{\hspace{-3.95pt}\ssdag\hspace* {2 pt}}
-\newcommand{\noteBalt}{\ssdag\hspace* {-3.95 pt}}
-\newcommand{\noteBns}{\ssdag\hspace* {2 pt}}
-
+\newcommand{\noteA}{\hspace{-3.95pt}\ssstar\hspace*{2pt}} % Note A with specific spacing
+\newcommand{\noteAalt}{\ssstar\hspace*{-3.95pt}} % Alternative Note A with specific spacing
+\newcommand{\noteAns}{\ssstar\hspace*{2pt}} % Note A with specific spacing (no space adjustment)
+\newcommand{\noteB}{\hspace{-3.95pt}\ssdag\hspace*{2pt}} % Note B with specific spacing
+\newcommand{\noteBalt}{\ssdag\hspace*{-3.95pt}} % Alternative Note B with specific spacing
+\newcommand{\noteBns}{\ssdag\hspace*{2pt}} % Note B with specific spacing (no space adjustment)
 
 %% Authors
-\newcommand{\meb}{{\bf Garrison, S. M.}\xspace}
-\newcommand{\Joe}{Rodgers, J. L.\xspace}
-\newcommand{\joe}{\Joe}
-\newcommand{\jjj}{Jackson, J. J.\xspace}
+\newcommand{\meb}{{\bf Garrison, S. M.}\xspace} % Bold name
+\newcommand{\Joe}{Rodgers, J. L.\xspace} % Name with proper capitalization
+\newcommand{\joe}{\Joe} % Name with proper capitalization
+\newcommand{\jjj}{Jackson, J. J.\xspace} % Name with proper capitalization
 
-%grad collabs
-\newcommand{\xyl}{Lyu, X.\noteBalt\xspace}
-\newcommand{\emsims}{Sims, E.\noteBalt\xspace}
-\newcommand{\yrh}{Hwang, Y. R.\noteBalt\xspace}
-% Undergrad Collabs
-\newcommand{\jt}{Trattner, J.\noteAalt\xspace}
-\newcommand{\jdt}{\jt}
-\newcommand{\kl}{Later, K.\noteAalt\xspace}
-\newcommand{\sherrym}{Mao, T. S.\noteAalt\xspace}
+% Graduate Collaborators
+\newcommand{\xyl}{Lyu, X.\noteBalt\xspace} % Collaborator name with Note B and alternative spacing
+\newcommand{\emsims}{Sims, E.\noteBalt\xspace} % Collaborator name with Note B and alternative spacing
+\newcommand{\yrh}{Hwang, Y. R.\noteBalt\xspace} % Collaborator name with Note B and alternative spacing
+% Undergraduate Collaborators
+\newcommand{\jt}{Trattner, J.\noteAalt\xspace} % Collaborator name with Note A and alternative spacing
+\newcommand{\jdt}{\jt} % Collaborator name with Note A and alternative spacing
+\newcommand{\kl}{Later, K.\noteAalt\xspace} % Collaborator name with Note A and alternative spacing
+\newcommand{\sherrym}{Mao, T. S.\noteAalt\xspace} % Collaborator name with Note A and alternative spacing
 
 %%% URL
-\newcommand{\bluelink}[2]{\href{#1}{\small\color{blue}{#2}}}
-\newcommand{\bluelinkreg}[2]{\href{#1}{\color{blue}{#2}}}
+\newcommand{\bluelink}[2]{\href{#1}{\small\color{blue}{#2}}} % Blue hyperlink with custom formatting
+\newcommand{\bluelinkreg}[2]{\href{#1}{\color{blue}{#2}}} % Regular blue hyperlink with custom formatting
 
 %% Definitions
-\def\pindent{3 mm}
+\def\pindent{3mm} % Paragraph indentation
 
 %% Formatting
-\singlespacing
+\singlespacing % Single line spacing
 \newlength{\wideitemsep}
 \setlength{\wideitemsep}{\itemsep}
 \addtolength{\wideitemsep}{-3pt}
 \let\olditem\item
-\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem}
-\renewcommand*{\familydefault}{\sfdefault}
-\hyphenation{Psychometrika}
-\hyphenation{LISREL}
+\renewcommand{\item}{\setlength{\itemsep}{\wideitemsep}\olditem} % Adjust spacing between items in lists
+\renewcommand*{\familydefault}{\sfdefault} % Default font family
+\hyphenation{Psychometrika} % Custom hyphenation
+\hyphenation{LISREL} % Custom hyphenation
+
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
 
-\def \name#1{\def\@name{#1}} % Defines the \name command to set name
-\def \@name {} % Sets \@name to empty by default
+\def\name#1{\def\@name{#1}} % Defines the \name command to set name
+\def\@name{} % Sets \@name to empty by default
 
-\def \addressSep {$\vert$} 
+\def\addressSep{$\vert$}
 
-% One, two or three address lines can be specified 
-\let \@addressone \relax
-\let \@addresstwo \relax
-\let \@addressthree \relax
+% One, two or three address lines can be specified
+\let\@addressone\relax
+\let\@addresstwo\relax
+\let\@addressthree\relax
 
 % \address command can be used to set the first, second, and third address (last 2 optional)
-\def \address #1{
+\def\address#1{
   \@ifundefined{@addresstwo}{
-    \def \@addresstwo {#1}
+    \def\@addresstwo{#1}
   }{
-  \@ifundefined{@addressthree}{
-  \def \@addressthree {#1}
-  }{
-     \def \@addressone {#1}
-  }}
+    \@ifundefined{@addressthree}{
+      \def\@addressthree{#1}
+    }{
+      \def\@addressone{#1}
+    }
+  }
 }
 
 % \printaddress is used to style an address line (given as input)
-\def \printaddress #1{
+\def\printaddress#1{
   \begingroup
-    \def \\ {\addressSep\ }
+    \def\\{\addressSep\ }
     \centerline{#1}
   \endgroup
   \par
 }
 
 % \printname is used to print the name as a page header
-\def \printname {
+\def\printname{
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
     \nameskip\break
@@ -127,14 +129,17 @@
 
 \let\ori@document=\document
 \renewcommand{\document}{
-  \ori@document  % Begin document
+  \ori@document % Begin document
   \printname % Print the name specified with \name
-  \@ifundefined{@addressone}{}{ % Print the first address if specified
-    \printaddress{\@addressone}}
-  \@ifundefined{@addresstwo}{}{ % Print the second address if specified
-    \printaddress{\@addresstwo}}
-     \@ifundefined{@addressthree}{}{ % Print the third address if specified
-    \printaddress{\@addressthree}}
+  \@ifundefined{@addressone}{}{
+    \printaddress{\@addressone} % Print the first address if specified
+  }
+  \@ifundefined{@addresstwo}{}{
+    \printaddress{\@addresstwo} % Print the second address if specified
+  }
+  \@ifundefined{@addressthree}{}{
+    \printaddress{\@addressthree} % Print the third address if specified
+  }
 }
 
 %----------------------------------------------------------------------------------------
@@ -160,16 +165,18 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
- {\bf #1} \hfill {#2} % Bold company name and date on the right
- \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
-  \\
-  { #3} \hfill { #4} % Italic job title and location
-  }\smallskip
+  {\bf #1} \hfill {#2} % Bold company name and date on the right
+  \ifthenelse{\equal{#3}{}}{}{
+    \\
+    {#3} \hfill {#4} % Italic job title and location
+  }
+  \smallskip
   \begin{list}{$\cdot$}{\leftmargin=.5em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+    \itemsep -0.5em
+    \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
-%\vspace{0.5em} % Some space after the list of bullet points
+  %\vspace{0.5em} % Some space after the list of bullet points%\vspace{0.5em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
