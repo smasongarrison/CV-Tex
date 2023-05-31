@@ -2,101 +2,88 @@
 %	Preamble
 %----------------------------------------------------------------------------------------
 %%%% Packages %%%%
-\documentclass [11pt,letterpaper]{article} 
-\usepackage{Common/style/MasonCV}
-\usepackage[normalem]{ulem}
-%
-%
-%
-%
+\documentclass[11pt,letterpaper]{article} % Document class and options
+\usepackage{Common/style/MasonCV} % Custom style package
+\usepackage[normalem]{ulem} % Underline formatting
+
 %%%% Title %%%%
 % Name
 \name{\textrm{S{\small{. }}M{\Large ason} G{\Large arrison}}} %{\tiny(arah)}
 %
 % First Line Under
-\address{Greene, Room 438 \\ Wake Forest University}
+\address{Greene, Room 438 \\ Wake Forest University} % First line address
 %230 Appleton Place PMB #552 Nashville, TN 37203
-%
+
 % 2nd Line Under
-\address{\href{www.smasongarrison.com}{www.smasongarrison.com} \\ garrissm@wfu.edu}
-%
+\address{\href{www.smasongarrison.com}{www.smasongarrison.com} \\ garrissm@wfu.edu} % Second line address
+
 \begin{document}
 % 1st Page Header
-\thispagestyle{myheadings}\markright{\em{\textrm \today}}
-\pagestyle{myheadings}
-% Alld other Page Headers
-\markright{\textrm{\em GARRISON}}
-%
+\thispagestyle{myheadings}\markright{\em{\textrm \today}} % Header on the first page
+\pagestyle{myheadings} % Page style for the first page
+% All other Page Headers
+\markright{\textrm{\em GARRISON}} % Page headers for other pages
 
 %----------------------------------------------------------------------------------------
 %	Appointments
 %----------------------------------------------------------------------------------------
-\input{Common/content/Positions.tex}
-%
+\input{Common/content/Positions.tex} % Input appointments from external file
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-\input{Common/content/education.tex}
-%
+\input{Common/content/education.tex} % Input education from external file
 
 %----------------------------------------------------------------------------------------
 %	Interests
 %----------------------------------------------------------------------------------------
-\input{Common/content/interests.tex}
-%
+\input{Common/content/interests.tex} % Input interests from external file
+
 %----------------------------------------------------------------------------------------
 %	Administration
 %----------------------------------------------------------------------------------------
-\input{Common/content/administration.tex}
-%
+\input{Common/content/administration.tex} % Input administration from external file
+
 %----------------------------------------------------------------------------------------
 %	Funds & Awards
 %----------------------------------------------------------------------------------------
-\input{Common/content/funds.tex}
-%
+\input{Common/content/funds.tex} % Input funds and awards from external file
 
 %----------------------------------------------------------------------------------------
 %	Grants
 %----------------------------------------------------------------------------------------
 %\pagebreak
+\input{Common/content/grant.tex} % Input grants from external file
 
-\input{Common/content/grant.tex}
-%
 %----------------------------------------------------------------------------------------
 %	Publications
 %----------------------------------------------------------------------------------------
-\input{Common/content/research_publications.tex}
-%
+\input{Common/content/research_publications.tex} % Input publications from external file
 
 %----------------------------------------------------------------------------------------
 
 %	Software
 %----------------------------------------------------------------------------------------
 
-\input{Common/content/research_software.tex}
+\input{Common/content/research_software.tex} % Input software from external file
 %\newpage
 
 %----------------------------------------------------------------------------------------
 %	Presentations
 %----------------------------------------------------------------------------------------
 %\newpage
-\begin{rSection}{\textrm{Presentations}}
+\begin{rSection}{\textrm{Presentations}} % Presentation section
 %
 \vspace{-1mm}\begin{center}\footnotesize{denotes WFU *undergraduate* or $\dagger$graduate$\dagger$ student co-author}\end{center}\vspace{-3mm}
 
-\input{Common/content/research_presentations.tex}
-%
+\input{Common/content/research_presentations.tex} % Input presentations from external file
 
 \end{rSection}
 %
 %----------------------------------------------------------------------------------------
 %	Select Abstracts
 %----------------------------------------------------------------------------------------
-\input{Common/content/research_abstracts.tex}
-%
-
-
+\input{Common/content/research_abstracts.tex} % Input abstracts from external file
 
 %----------------------------------------------------------------------------------------
 %	Working Papers
@@ -115,7 +102,7 @@
 \begin{etaremune}
 %
 
-\input{Common/content/working_papers.tex}
+\input{Common/content/working_papers.tex} % Input working papers from external file
 %\end{etaremune}
 %\begin{comment}
 %\hspace{-0mm}{\large \textbf{Presentations}}
@@ -130,17 +117,18 @@
 %	Teaching
 %----------------------------------------------------------------------------------------
 %\pagebreak
-\input{Common/content/experience_teaching.tex}
+\input{Common/content/experience_teaching.tex} % Input teaching experience from external file
 %\pagebreak
 %----------------------------------------------------------------------------------------
 %	Experience
 %----------------------------------------------------------------------------------------
-\begin{rSection}{\textrm{Select Experience}}
+\begin{rSection}{\textrm{Select Experience}} % Select experience section
 \large{\textbf{Academic}}\\
 %
-\input{Common/content/experience_academic.tex}\medskip
+\input{Common/content/experience_academic.tex} % Input academic experience from external file
+\medskip
 %%
-\input{Common/content/experience_fieldWork.tex}
+\input{Common/content/experience_fieldWork.tex} % Input fieldwork experience from external file
 %
 %\begin{minipage}[]{\textwidth}
 %{\large \textbf{Select Consulting}}\\\vspace{1mm}
@@ -154,16 +142,16 @@
 %	Service
 %----------------------------------------------------------------------------------------
 %\pagebreak
-\begin{rSection}{\textrm{Service}}
-\input{Common/content/service.tex}
+\begin{rSection}{\textrm{Service}} % Service section
+\input{Common/content/service.tex} % Input service from external file
 \end{rSection}
 %\pagebreak
 %----------------------------------------------------------------------------------------
 %	Committees
 %----------------------------------------------------------------------------------------
 %\begin{minipage}[]{\textwidth}
-\begin{rSection}{\textrm{Committees}}
-\input{Common/content/service_committees.tex}
+\begin{rSection}{\textrm{Committees}} % Committees section
+\input{Common/content/service_committees.tex} % Input committees from external file
 \end{rSection}
 %\end{minipage}
 %
@@ -171,8 +159,8 @@
 %	Outreach CONSIDER MERGING
 %----------------------------------------------------------------------------------------
 %\pagebreak
-\begin{rSection}{\textrm{Outreach}}
-\input{Common/content/service_outreach.tex}
+\begin{rSection}{\textrm{Outreach}} % Outreach section
+\input{Common/content/service_outreach.tex} % Input outreach from external file
 \end{rSection}
 %\pagebreak
 %----------------------------------------------------------------------------------------
@@ -216,9 +204,9 @@ Association for Research in Personality (ARP)\\ Society for Personality and Soci
 %----------------------------------------------------------------------------------------
 %\pagebreak
 \begin{minipage}{\linewidth}
-\begin{rSection}{\textrm{Particular Skills}} %
+\begin{rSection}{\textrm{Particular Skills}} % Particular skills section
 \smallskip%\\
-\input{Common/content/training_skills.tex} 
+\input{Common/content/training_skills.tex} % Input skills from external file
 \end{rSection}
 \end{minipage}
 %\pagebreak
@@ -229,7 +217,7 @@ Association for Research in Personality (ARP)\\ Society for Personality and Soci
 %\pagebreak
 %\begin{comment}
 \begin{minipage}{\linewidth}
-\begin{rSection}{\textrm{References}}
+\begin{rSection}{\textrm{References}} % References section
 %Available Upon Request
 \medskip\begin{tabular}{ l l }
 \begin{tabular}{@{}l@{\hspace{6ex}}}\textbf{Joseph L. Rodgers, Ph.D} \\
@@ -264,7 +252,5 @@ Professor \\
 Department of Psychology\\
 Washington University in St. Louis\end{tabular}
 \end{comment}
-
-
 
 \end{document}
