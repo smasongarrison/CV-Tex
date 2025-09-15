@@ -1,7 +1,8 @@
 name: buildpdf
-  on: [push]
+on:
+  push:
     paths:
-      - '**.tex'
+      - '**/*.tex'
 jobs:
   build_latex:
     runs-on: ubuntu-latest
