@@ -1,5 +1,6 @@
 name: buildpdf
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**/*.tex'
