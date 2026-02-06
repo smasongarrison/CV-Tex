@@ -65,8 +65,8 @@ echo "3. Checking for unmatched begin/end environments..."
 # Count only non-commented \begin and \end (lines not starting with %)
 begin_count=$(grep '\\begin{' SMasonGarrisonCV.tex | grep -v '^%' | wc -l)
 end_count=$(grep '\\end{' SMasonGarrisonCV.tex | grep -v '^%' | wc -l)
-# Note: This still counts environments inside \begin{comment} blocks, which is intentional
-# as unbalanced environments inside comments can cause issues
+# Note: This is a basic check that doesn't exclude environments inside \begin{comment} blocks
+# It may report false warnings if commented code contains unbalanced environments
 if [ "$begin_count" -ne "$end_count" ]; then
     echo -e "${YELLOW}WARNING: Potential mismatch between \\begin{} ($begin_count) and \\end{} ($end_count) statements${NC}"
     echo -e "${YELLOW}  Note: This count includes environments in \\begin{comment} blocks${NC}"
@@ -92,7 +92,9 @@ echo ""
 
 echo "5. Checking for common LaTeX special character issues..."
 # Check for unescaped special characters in content files (basic check)
-unescaped=$(grep -rn '[^\\][%$#&]' Common/content/*.tex 2>/dev/null | grep -v '^Binary' | head -5 || true)
+# Note: This is a basic pattern that may produce false positives
+# It checks for $, #, & that aren't preceded by backslash
+unescaped=$(grep -rn '[^\\][$#&]' Common/content/*.tex 2>/dev/null | grep -v '^Binary' | head -5 || true)
 if [ -n "$unescaped" ]; then
     echo -e "${YELLOW}WARNING: Possible unescaped special characters found (first 5):${NC}"
     echo "$unescaped"
@@ -106,7 +108,8 @@ echo "6. Checking for proper section headers in content files..."
 files_without_headers=0
 for file in Common/content/*.tex; do
     if [ -f "$file" ]; then
-        if ! grep -q "^%-*$" "$file"; then
+        # Check for comment lines with at least 3 dashes (e.g., %---, %------------)
+        if ! grep -q '^%-\{3,\}' "$file"; then
             echo -e "${YELLOW}WARNING: Missing section header comment in $(basename "$file")${NC}"
             files_without_headers=$((files_without_headers + 1))
         fi
@@ -121,13 +124,14 @@ echo ""
 
 echo "7. Checking for broken hyperlinks format..."
 # Basic check for malformed \href{} commands
+# Note: This is a simple check that may not catch all malformed hrefs
 broken_hrefs=$(grep -rn '\\href{[^}]*{[^}]*$' Common/content/*.tex 2>/dev/null || true)
 if [ -n "$broken_hrefs" ]; then
     echo -e "${RED}ERROR: Possible malformed \\href{} commands:${NC}"
     echo "$broken_hrefs"
     ERRORS=$((ERRORS + 1))
 else
-    echo -e "${GREEN}✓ No malformed hyperlinks detected${NC}"
+    echo -e "${GREEN}✓ No obviously malformed hyperlinks detected${NC}"
 fi
 echo ""
 

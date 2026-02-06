@@ -144,7 +144,7 @@ To test without local LaTeX:
 ### Student Co-author Notations
 ```latex
 Student, A.\noteAalt  % Undergraduate (*)
-Student, B.$\dagger$  % Graduate (†)
+Student, B.\noteBalt  % Graduate (†)
 ```
 
 ## Troubleshooting
