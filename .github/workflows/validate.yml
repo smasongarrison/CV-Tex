@@ -1,0 +1,30 @@
+name: Validate CV
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.tex'
+      - 'validate_cv.sh'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - '**/*.tex'
+      - 'validate_cv.sh'
+      - '.github/workflows/validate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      
+      - name: Make validation script executable
+        run: chmod +x validate_cv.sh
+      
+      - name: Run CV validation
+        run: bash validate_cv.sh
