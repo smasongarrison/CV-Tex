@@ -13,6 +13,9 @@ on:
       - 'validate_cv.sh'
       - '.github/workflows/validate.yml'
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
