@@ -1,11 +1,33 @@
-%----------------------------------------------------------------------------------------
-%	Preamble
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
+% This .tex file produced an accessible, tagged PDF as of Feb 19,
+% 2026.  LaTeX kernel: 2025-11-01, with all updates current. Compiled with LuaLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+% To enable tagging, before defining the document class, add this
+% Document Metadata declaration:
+
+\DocumentMetadata{
+  lang=en-US,      % defines the language
+  pdfversion=2.0, % used with pdf/UA-2 standard, this pdf version works well with screen readers
+  pdfstandard = UA-2,   % specify the compliance standard for the generated PDF 
+  tagging=on,       % tells LaTeX to identify document structure  (e.g. headings, paragraph text, figures)
+  tagging-setup={math/setup=mathml-SE}  % enables structure element tagging for mathematics (MathML) within the PDF structure. 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Now declare the document class and packages
+
 %%%% Packages %%%%
+
+
 \documentclass[11pt,letterpaper]{article} % Document class and options
 \usepackage{Common/style/MasonCV} % Custom style package
 \usepackage[normalem]{ulem} % Underline formatting
 \usepackage{hyperref}
+\usepackage{unicode-math}
+\usepackage{tagpdf}
+\tagpdfsetup{activate-all}
+\tagpdfsetup{math/alt/use}
 %%%% Title %%%%
 % Name
 \name{\textrm{S{\small{. }}M{\Large ason} G{\Large arrison}}} %{\tiny(arah)}
